@@ -10,11 +10,13 @@ import {
   transformerVariantGroup,
 } from 'unocss'
 
+import presetRemToPx from '@unocss/preset-rem-to-px'
+
 export default defineConfig({
   // ...UnoCSS options
   shortcuts: [
     // short
-    ['w-site', 'wfull mx-auto max-w-screen-2xl lt-lg:px-6 px-10'],
+    ['w-site', 'wfull mx-auto max-w-screen-xl lt-lg:px-6 px-10'],
     ['w-content', 'wfull mx-auto max-w-screen-lg lt-2md:px-6 2md:px-20'],
     ['flex-c', 'flex items-center'],
     ['flex-b', 'flex justify-between'],
@@ -98,6 +100,10 @@ export default defineConfig({
 
     boxShadow: {
       custom: '0 4px 100px 20px rgba(202, 202, 202, 0.3)'
+    },
+
+    fontSize: {
+      base: '0.5rem'
     }
   },
 
@@ -105,6 +111,9 @@ export default defineConfig({
     presetUno(),
     presetAttributify(),
     presetTypography(),
+    presetRemToPx({
+      baseFontSize:14
+    }),
     presetIcons({
       scale: 1.2,
     }),
