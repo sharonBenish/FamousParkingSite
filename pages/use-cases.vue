@@ -4,7 +4,7 @@
 <template>
     <div class="hero relative wfull h60dvh 3xl:h70dvh bg-[url('/images/usecases-hero.jpg')] bg-cover bg-no-repeat -mt20 lg:-mt24 text-[#424242]">
         <div class="hero-text text-white absolute bottom-10 w-site right-1/2 left-1/2 -translate-x-1/2 z-200">
-            <h1 class="font-800 text-9 2md:text-12 lg-text-20 lg-w180">Use Cases</h1>
+            <h1 class="font-800 text-9 2md:text-12 lg-text-16 lg-w180">Use Cases</h1>
         </div>
         <div class="overlay absolute top-0 hfull wfull bg-[#000000] opacity-40"></div>
     </div>

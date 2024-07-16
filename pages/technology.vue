@@ -4,7 +4,7 @@
 <template>
     <div class="hero relative wfull h60dvh 3xl:h70dvh bg-[url('/images/technology-hero.jpg')] bg-cover bg-no-repeat -mt20 lg:-mt24 text-[#424242]">
         <div class="hero-text text-white absolute bottom-10 w-site right-1/2 left-1/2 -translate-x-1/2 z-200">
-            <h1 class="font-800 text-9 2md:text-12 lg-text-20 lg-w180">Our Technology</h1>
+            <h1 class="font-800 text-9 2md:text-12 lg-text-16 lg-w180">Our Technology</h1>
         </div>
         <div class="overlay absolute top-0 hfull wfull bg-[#000000] opacity-40"></div>
     </div>
@@ -13,7 +13,7 @@
         <div class="w-content flex-col 2lg:flex-row flex gap10">
             <div class="2lg:w-[45%] 2xl:-ml-[80px]">
                 <h3 class="fw800 text-5 md:text-6.5 lg:text-8 mb6 lg:mb10">Tech value proposition</h3>
-                <p class="fw600 lg:text-5 mb2 lg:mb8">FamousParking.com leverages multiple tech workflows to drive efficiency and value creation that is then passed along to our owners in the form of highly competitive rates.</p>
+                <p class="fw600 lg:text-5 mb2 lg:mb6.5">FamousParking.com leverages multiple tech workflows to drive efficiency and value creation that is then passed along to our owners in the form of highly competitive rates.</p>
                 <ul class="list-circle my3 ml4 lt-2lg:hidden">
                     <li class="mb4">Our tech forward team includes three full time coders and one modeling expert, with an emphasis on outcomes.</li>
                     <li class="mb4">Our proprietary code sets streamline pricing workflows and operations for both daily parking and events like sports games and concerts.</li>
@@ -21,7 +21,7 @@
                     <li class="mb4">Our proprietary Excel models drive pricing efficiencies and create actionable insights for our team’s quality pricing decisions.</li>
                 </ul>
             </div>
-            <NuxtImg src="/images/technology.jpg" class="flex-1 2lg:-mr-[80px] max-h-[500px] object-cover" />
+            <NuxtImg src="/images/technology.jpg" class="flex-1 2lg:-mr-[80px] max-h-[400px] object-cover overflow-hidden rounded-4 lg:rounded-[30px]" />
             <ul class="list-circle my ml4 text-3.5 md:text-4.5 2lg:hidden">
                 <li class="mb4">A dedicated business development team focused on increasing revenue.</li>
                 <li class="mb4">Dynamic Pricing system ensures drivers always pay the optimal rate.</li>

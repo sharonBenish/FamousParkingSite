@@ -26,7 +26,7 @@ export default defineConfig({
     ['icon-link', 'h4 mt0.5 transform ease duration-400 group-hover:(translate-x-1.5)'],
     ['btn-link', 'py3 px6 2xl:px8 border border-gray-1 text-gray-1 hover:text-gray-9 duration-300 relative z1 of-hidden [&>span]:(block absolute w0 h0 -z1 rounded-[50%] bg-white -translate-50% -top-5px left-70px btn-transition)'],
     ['apply-link', 'py2 px5 2xl:px6 text-white tracking-tight hover:text-e-primary duration-300 relative z1 of-hidden [&>span]:(block absolute w0 h0 -z1 rounded-[50%] bg-white -translate-50% -top-5px left-70px btn-transition)'],
-    ['nav-link', 'py5 block hover:text-green-7 transition duration-300 relative'],
+    ['nav-link', 'py5 text-4 block hover:text-green-7 transition duration-300 relative'],
     ['nav-active', ''],
     ['2-grid', 'grid grid-cols-1 md:grid-cols-1 lg:grid-cols-2 xl:grid-cols-2 lt-sm:gap-y-6 gap-2'],
     ['3-grid', 'grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-3 lt-sm:gap-y-6 gap-6'],

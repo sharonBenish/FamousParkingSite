@@ -34,7 +34,7 @@ const scrollToSection = () => {
 function goToContact() {
   if (route.path === '/') {
     // User is on the home page, scroll to contact
-    scrollToContact()
+    scrollToSection()
   } else {
     // User is not on the home page, navigate to home then scroll
     router.push('/#contact')
@@ -49,10 +49,10 @@ closeDropdown()
 
 <template>
   <header class="bg-[#E0F2F148] rounded mx-6 lg-mx-16 mt-4 text-white">
-    <div class="w-site px2 flex items-center justify-between h16 lg-h20 relative">
+    <div class="w-site px2 flex items-center justify-between h14 lg-h20 relative">
       <div class=" relative">
         <NuxtLink to="/">
-          <NuxtImg src="/images/Logo.svg" class="w18 lg-w24 hauto" />
+          <NuxtImg src="/images/Logo.svg" class="w18 lg-w22 hauto" />
         </NuxtLink>
       </div>
       <nav class="">
