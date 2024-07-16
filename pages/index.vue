@@ -6,7 +6,7 @@
     <!--HERO SECTION-->
     <div class="hero relative wfull h100dvh md:h85dvh 3xl:h70dvh bg-[url('/images/Hero-img.svg')] bg-cover -mt20 lg:-mt22">
         <div class="hero-text text-white absolute bottom-10 w-site right-1/2 left-1/2 -translate-x-1/2 z-200">
-            <h1 class="font-800 text-9 lg:text-12 xl-text-18 lg:w160 2xl:w180">Get Famous. Make Money.</h1>
+            <h1 class="font-800 text-9 lg:text-12 xl-text-18 lg:w180">Get Famous. Make Money.</h1>
             <div class="lg-flex lg-flex-row justify-between items-end">
                 <p class="font-600 xl:text-5 lg:w150 2xl:w180">We handle parking management needs so you can focus on what matters. Start today!</p>
                 <button class="flex items-center gap1 lg-gap2 bg-e-primary mt4 lg-mt0 px-4 xl-px6 py-3 xl-py4 text-4 xl-text-5 rounded-3 font-600">
@@ -40,7 +40,7 @@
                 <div class="w-1/3 lt-lg:flex-1 lg-w-2/5 z-10 -mx-10 lt-lg:-mt-12 lg:-mx-12 lg:-my-16 relative">
                     <div class="h1 lg-h2 w-10 lg-w20 rounded mb2 lg-mb4 bg-e-primary mx-auto"></div>
                     <NuxtImg class="wfull" src="/images/Operations.svg"/>
-                    <div class="absolute bottom-8 lg-bottom-11 xl-bottom-6.5 2xl:bottom-9 w-full py-0.5 lg-py2 bg-e-primary/50 text-3 lg-text-4 text-white text-center font-500 rounded-b-2 lg-rounded-b-5">Operations</div>
+                    <div class="absolute bottom-8 lg-bottom-11 xl-bottom-6 2xl:bottom-9 w-full py-0.5 lg-py2 bg-e-primary/50 text-3 lg-text-4 text-white text-center font-500 rounded-b-2 lg-rounded-b-5">Operations</div>
                 </div>
                 <!--Customer Service-->
                 <div class="w-1/3 relative lt-lg:flex-1">
