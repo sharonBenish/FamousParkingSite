@@ -17,7 +17,7 @@ export default defineConfig({
   shortcuts: [
     // short
     ['w-site', 'wfull mx-auto max-w-screen-xl lt-lg:px-6 px-10'],
-    ['w-content', 'wfull mx-auto max-w-screen-lg lt-2md:px-6 2md:px-20'],
+    ['w-content', 'wfull mx-auto max-w-screen-2lg lt-2md:px-6 2md:px-20'],
     ['flex-c', 'flex items-center'],
     ['flex-b', 'flex justify-between'],
     ['flex-cb', 'flex items-center justify-between'],
