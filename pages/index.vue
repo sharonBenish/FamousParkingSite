@@ -4,9 +4,9 @@
 
 <template>
     <!--HERO SECTION-->
-    <div class="hero relative wfull h100dvh md:h85dvh 3xl:h70dvh bg-[url('/images/Hero-img.svg')] bg-cover -mt20 lg:-mt24">
+    <div class="hero relative wfull h100dvh md:h85dvh 3xl:h70dvh bg-[url('/images/Hero-img.svg')] bg-cover -mt20 lg:-mt22">
         <div class="hero-text text-white absolute bottom-10 w-site right-1/2 left-1/2 -translate-x-1/2 z-200">
-            <h1 class="font-800 text-9 lg:text-12 xl-text-18 lg:w150 2xl:w180">Get Famous. Make Money.</h1>
+            <h1 class="font-800 text-9 lg:text-12 xl-text-18 lg:w160 2xl:w180">Get Famous. Make Money.</h1>
             <div class="lg-flex lg-flex-row justify-between items-end">
                 <p class="font-600 xl:text-5 lg:w150 2xl:w180">We handle parking management needs so you can focus on what matters. Start today!</p>
                 <button class="flex items-center gap1 lg-gap2 bg-e-primary mt4 lg-mt0 px-4 xl-px6 py-3 xl-py4 text-4 xl-text-5 rounded-3 font-600">

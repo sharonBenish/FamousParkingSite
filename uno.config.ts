@@ -16,7 +16,7 @@ export default defineConfig({
   // ...UnoCSS options
   shortcuts: [
     // short
-    ['w-site', 'wfull mx-auto max-w-screen-xl lt-lg:px-6 px-10'],
+    ['w-site', 'wfull mx-auto max-w-screen-xl lt-lg:px-6 px-12'],
     ['w-content', 'wfull mx-auto max-w-[1150px] lt-2md:px-6 2md:px-20'],
     ['flex-c', 'flex items-center'],
     ['flex-b', 'flex justify-between'],
