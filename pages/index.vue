@@ -73,7 +73,7 @@
                 </div>
             </div>
             <div class="absolute left-0 right-0 -mt6 sm:-mt12 md:-mt16 lg:-mt15 w-full">
-                <NuxtImg class="w-full" src="images/Chart-Section.svg"/>
+                <NuxtImg class="w-full" src="images/ChartSection.svg"/>
             </div>
         </div>
     </div>
