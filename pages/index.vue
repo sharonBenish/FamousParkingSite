@@ -6,14 +6,10 @@
     <!--HERO SECTION-->
     <div class="hero relative wfull h100dvh md:h85dvh 3xl:h70dvh bg-[url('/images/Hero-img.svg')] bg-cover -mt20 lg:-mt24">
         <div class="hero-text text-white absolute bottom-10 w-site right-1/2 left-1/2 -translate-x-1/2 z-200">
-            <h1 class="font-800 text-9 lg:text-12 2xl-text-20 lg:w150 2xl:w180">Get Famous. Make Money.</h1>
+            <h1 class="font-800 text-9 lg:text-12 xl-text-18 lg:w150 2xl:w180">Get Famous. Make Money.</h1>
             <div class="lg-flex lg-flex-row justify-between items-end">
-                <p class="font-600 lg:text-5 xl:text-6 lg:w150 2xl:w180">We handle parking management needs so you can focus on what matters. Start today!</p>
-                <!-- <NuxtLink to="/" class="apply-link group lt-lg-hidden">
-                Get Proposal
-                <span class="group-hover:(w-31em h-15em)" />
-                </NuxtLink> -->
-                <button class="flex items-center gap1 lg-gap2 bg-e-primary mt4 lg-mt0 px-4 xl-px8 py-3 xl-py4 xl-text-6 rounded-3 font-600">
+                <p class="font-600 xl:text-5 lg:w150 2xl:w180">We handle parking management needs so you can focus on what matters. Start today!</p>
+                <button class="flex items-center gap1 lg-gap2 bg-e-primary mt4 lg-mt0 px-4 xl-px6 py-3 xl-py4 text-4 xl-text-5 rounded-3 font-600">
                     <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <path d="M4.88891 24.2511C4.87827 25.8447 6.18213 27.1662 7.77569 27.177L14.5568 27.2231C20.9669 27.2666 26.2163 22.0873 26.2591 15.6772C26.302 9.26716 21.1221 4.01709 14.712 3.97358L7.93095 3.92754C6.3374 3.91672 5.016 5.22043 5.00536 6.81399L4.88891 24.2511ZM6.82637 24.2643L6.94282 6.82715C6.94648 6.27885 7.36971 5.86127 7.91801 5.86499L14.6991 5.91103C20.061 5.94743 24.3575 10.3022 24.3217 15.6641C24.2859 21.026 19.9316 25.322 14.5697 25.2856L7.78863 25.2396C7.24033 25.2358 6.82271 24.8126 6.82637 24.2643ZM11.1182 20.7516C11.1158 21.1226 11.2838 21.4986 11.5657 21.7834C11.6971 21.9191 11.8542 22.0273 12.0279 22.1015C12.2015 22.1758 12.3882 22.2147 12.5771 22.216C12.766 22.2173 12.9532 22.1809 13.1278 22.109C13.3025 22.0371 13.461 21.9311 13.5942 21.7972L18.8661 16.5958C19.1406 16.3245 19.2962 15.9554 19.2988 15.5694C19.3014 15.1835 19.1507 14.8123 18.8799 14.5373L13.8282 9.38689C13.5569 9.11238 13.1877 8.95674 12.8018 8.95412C12.4158 8.9515 12.0447 9.10212 11.7697 9.37291C11.4952 9.64422 11.3396 10.0134 11.337 10.3993C11.3344 10.7852 11.4851 11.1565 11.7559 11.4315L15.8157 15.5453L11.5794 19.7249C11.2937 20.0068 11.1207 20.3805 11.1182 20.7516Z" fill="white"/>
                     </svg>
@@ -82,14 +78,14 @@
     <div class="bg-e-primary text-white py15">
         <div class="w-content lt-lg-flex-col flex justify-between items-center lt-lg:text-center lg-items-end">
             <div class="lg:w-130 xl:w160">
-                <h3 class="text-6 lg:text-8 xl:text-12 font700 mb6">Ready to make your parking famous? </h3>
+                <h3 class="text-6 lg:text-8 xl:text-10 font700 mb6">Ready to make your parking famous? </h3>
                 <p class="xl:text-5 font500">Allow us to put together a parking proposal that is customized for your lot.</p>
             </div>
-            <button class="flex items-center gap1 lg-gap2 bg-white text-e-primary mt4 lg-mt0 px-4 xl-px8 py-3 xl-py4 text-3.5 lg:text-4 xl:text-6 rounded-3 font-600">
+            <button class="flex items-center gap1 lg-gap2 bg-white text-e-primary mt4 lg-mt0 px-4 xl-px8 py-3 xl-py4 text-3.5 lg:text-4 xl:text-5 rounded-3 font-600">
                 <svg class="h5 w5 lg-h8 lg-w8" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <path d="M4.88891 24.2511C4.87827 25.8447 6.18213 27.1662 7.77569 27.177L14.5568 27.2231C20.9669 27.2666 26.2163 22.0873 26.2591 15.6772C26.302 9.26716 21.1221 4.01709 14.712 3.97358L7.93095 3.92754C6.3374 3.91672 5.016 5.22043 5.00536 6.81399L4.88891 24.2511ZM6.82637 24.2643L6.94282 6.82715C6.94648 6.27885 7.36971 5.86127 7.91801 5.86499L14.6991 5.91103C20.061 5.94743 24.3575 10.3022 24.3217 15.6641C24.2859 21.026 19.9316 25.322 14.5697 25.2856L7.78863 25.2396C7.24033 25.2358 6.82271 24.8126 6.82637 24.2643ZM11.1182 20.7516C11.1158 21.1226 11.2838 21.4986 11.5657 21.7834C11.6971 21.9191 11.8542 22.0273 12.0279 22.1015C12.2015 22.1758 12.3882 22.2147 12.5771 22.216C12.766 22.2173 12.9532 22.1809 13.1278 22.109C13.3025 22.0371 13.461 21.9311 13.5942 21.7972L18.8661 16.5958C19.1406 16.3245 19.2962 15.9554 19.2988 15.5694C19.3014 15.1835 19.1507 14.8123 18.8799 14.5373L13.8282 9.38689C13.5569 9.11238 13.1877 8.95674 12.8018 8.95412C12.4158 8.9515 12.0447 9.10212 11.7697 9.37291C11.4952 9.64422 11.3396 10.0134 11.337 10.3993C11.3344 10.7852 11.4851 11.1565 11.7559 11.4315L15.8157 15.5453L11.5794 19.7249C11.2937 20.0068 11.1207 20.3805 11.1182 20.7516Z" class="fill-e-primary"/>
                 </svg>
-                 Get Proposal
+                 Get In Touch
             </button>
         </div>
     </div>
@@ -146,12 +142,12 @@
             <form class="text-3 lg-text-4">
                 <div class="flex justify-between gap-10 lg-gap20 mb10 lt-lg:flex-wrap">
                     <div class="w-full lg-w-1/2 flex flex-col gap2">
-                        <label>Firstname</label>
-                        <input class="outline-0 px2.5 py3 border border-[#E2E1E5] bg-white rounded placeholder-[#D2D2D2]" placeholder="Firstname" />
+                        <label>First name</label>
+                        <input class="outline-0 px2.5 py3 border border-[#E2E1E5] bg-white rounded placeholder-[#D2D2D2]" placeholder="First name" />
                     </div>
                     <div class="w-full lg-w-1/2 flex flex-col gap2">
-                        <label>Lastname</label>
-                        <input class="outline-0 px2.5 py3 border border-[#E2E1E5] bg-white rounded placeholder-[#D2D2D2]" placeholder="Lastname" />
+                        <label>Last name</label>
+                        <input class="outline-0 px2.5 py3 border border-[#E2E1E5] bg-white rounded placeholder-[#D2D2D2]" placeholder="Last name" />
                     </div>
                 </div>
                 <div class="flex justify-between gap-10 lg-gap20 mb10 lt-lg:flex-wrap">
@@ -169,8 +165,12 @@
                     <input type="text" class="outline-0 px2.5 py3 border border-[#E2E1E5] bg-white rounded placeholder-[#D2D2D2]" placeholder="Parking facility address" />
                 </div>
                 <div class="flex flex-col gap2 mb10">
-                    <label>Parking facility address</label>
-                    <textarea rows="4" class="outline-0 px2.5 py3 border border-[#E2E1E5] bg-white rounded placeholder-[#D2D2D2]" placeholder="Parking facility address"></textarea>
+                    <label>Parking facility city</label>
+                    <input type="text" class="outline-0 px2.5 py3 border border-[#E2E1E5] bg-white rounded placeholder-[#D2D2D2]" placeholder="Parking facility city" />
+                </div>
+                <div class="flex flex-col gap2 mb10">
+                    <label>How can we help?</label>
+                    <textarea rows="4" class="outline-0 px2.5 py3 border border-[#E2E1E5] bg-white rounded placeholder-[#D2D2D2]" placeholder="How can we help?"></textarea>
                 </div>
                 <div class="flex justify-end">
                     <button class="bg-[#424242] rounded-2.5 px8 py3 lg-px12 lg-py4 text-3 lg-text-3.725 text-white font700">Submit</button>
