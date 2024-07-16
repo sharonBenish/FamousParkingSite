@@ -37,73 +37,8 @@ const year = new Date().getFullYear()
 </script>
 
 <template>
-  <footer class="pt14 bg-white">
-    <!-- <div class="w-site lt-sm:px flex flex-col lg:flex-row sm:gap-x-5 pb12">
-      <div class="flex flex-col lt-xl:gap-y-4 xl:(flex-row gap-x-20) flex-3/5">
-        <NuxtLink to="/" class="flex space-x-1.5 wmax">
-          <NuxtImg src="/eti/uniport-sm.png" format="webp" class="h10 3xl:h12 " />
-          <div class="text-gray-7">
-            <h3 class="text-3.25 3xl:text-3.75">
-              Famous Parking
-            </h3>
-            <p class="3xl:text-4.5 font-sen tracking-tighter -mt1 ">
-              Get Famous. Make Money.
-            </p>
-          </div>
-        </NuxtLink>
-        <div class="text-gray-7 fw300">
-          <h3>Lorem Ipsum</h3>
-          <p>Lorem Ipsum <br> Lorem Ipsum <br> USA<br> </p>
-          <div class="flex gap-x-2 mt1">
-            <NuxtLink href="tel:+2348056320209" class="hover:underline">
-              +234(0)8056320209,
-            </NuxtLink>
-            <NuxtLink href="tel:+2348108185090" class="hover:underline">
-              +234(0)8108185090
-            </NuxtLink>
-          </div>
-          <NuxtLink href="mailto:info.eti@uniport.edu.ng" class="hover:underline">
-            info.eti@uniport.edu.ng
-          </NuxtLink>
-        </div>
-      </div>
-      <div class="flex-2/5 flex lt-lg:mt8 flex justify-between flex-wrap gap-y-6">
-        <div v-for="item of footerLinks" :key="item.title" class="text-gray-7 ">
-          <h4 class="mb6 relative  text-4.25 fw500 before:(content-[''] absolute left-0 -bottom-2.5 h0.5 bg-gray-3 w10 rounded-full)">
-            {{ item.title }}
-          </h4>
-          <NuxtLink v-for="list of item.links" :key="list.head" :to="list.to" class="text-3.75 mb1.5 fw300 block hover:text-green-7 duration-400">
-            {{ list.head }}
-          </NuxtLink>
-        </div>
-      </div>
-    </div>
-    <div class="py5 border-t-2 border-gray-5/5">
-      <div class="w-site lt-lg:px flex flex-col lg:(flex-row items-center) justify-between ">
-        <div class="flex gap-x-5">
-          <NuxtLink href="/" target="_blank">
-            <Icon name="fa6-brands:facebook-f" class="h6 w6 text-gray-7" />
-          </NuxtLink>
-          <NuxtLink href="/" target="_blank">
-            <Icon name="fa6-brands:x-twitter" class="h6 w6 text-gray-7" />
-          </NuxtLink>
-          <NuxtLink href="/" target="_blank">
-            <Icon name="fa6-brands:youtube" class="h7.5 w7.5 text-gray-7" />
-          </NuxtLink>
-        </div>
-        <div class="flex-c text-3.25 fw300 text-gray-7 tracking-tight lt-lg:mt">
-          <p mr1>
-            Copyright
-          </p>
-          <Icon name="ph:copyright" class="h3.5 w3.5 mt0.1" />
-          <p ml1>
-            Famous Parking {{ year }}
-          </p>
-        </div>
-      </div>
-    </div> -->
-    
-    <div class="w-site lt-sm:px pb8 lg:pb15">
+  <footer class="pt14 bg-white">  
+    <div class="w-site lt-sm:px px-6 lg-px-16 pb8 lg:pb15">
       <div class="flex justify-between ">
         <NuxtLink to="/" class="-ml4">
           <NuxtImg src="/images/Logo.svg" class="w18 lg-w30 hauto" />
