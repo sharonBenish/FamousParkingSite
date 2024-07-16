@@ -6,8 +6,10 @@ defineProps({
 const navLink = [
   { head: 'Home', to: '/' },
   { head: 'About', to: '/about' },
-  { head: 'Services', to: '/about' },
-  { head: 'Use Cases', to: '/about' },
+  { head: 'Services', to: '/services' },
+  { head: 'Use Cases', to: '/use-cases' },
+  { head: 'Technology', to: '/technology' },
+  { head: 'Payment Solution', to: '/payment' }
 ]
 </script>
 

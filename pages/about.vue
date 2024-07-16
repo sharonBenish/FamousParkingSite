@@ -2,14 +2,14 @@
 </script>
 
 <template>
-    <div class="hero relative wfull h60dvh 3xl:h70dvh bg-[url('/images/about.jpg')] bg-cover bg-no-repeat -mt20 lg:-mt24">
-        <div class="hero-text text-white absolute top-80 lg:top-90 w-site right-1/2 left-1/2 -translate-x-1/2 z-200">
-            <h1 class="font-800 text-9 lg-text-20 lg-w180">About Us</h1>
+    <div class="hero relative wfull h60dvh 2xl:h70dvh bg-[url('/images/about.jpg')] bg-cover bg-no-repeat -mt20 lg:-mt24">
+        <div class="hero-text text-white absolute bottom-10 w-site right-1/2 left-1/2 -translate-x-1/2 z-200">
+            <h1 class="font-800 text-9 2md:text-12 lg-text-20 lg-w180">About Us</h1>
         </div>
         <div class="overlay absolute top-0 hfull wfull bg-[#000000] opacity-40"></div>
     </div>
 
-    <div class="bg-white py10 lg:py30">
+    <div class="bg-white py10 lg:py30 bg-[url('/images/Vector1.svg')] bg-no-repeat bg-pos-right-top my-15">
         <div class="w-content lg:flex text-[#757575]">
             <div>
                 <div class="lg:w-[80%]">
@@ -30,13 +30,13 @@
         </div>
     </div>
 
-    <div class="bg-[#E4F4F3] py20">
+    <div class="bg-[#E4F4F3] py10 lg:py20 bg-[url('/images/lowsvg.svg')] bg-no-repeat bg-pos-left-bottom">
         <div class="w-content">
             <div>
                 <h2 class="border-l-e-primary pl2 lg-pl4 border-l-8 mb6 text-5 lg-text-9 font700 text-[#424242] lg:mb10">Why Us?</h2>
                 <div class="relative">
                     <NuxtImg src="/images/team.jpg" class="wfull min-h50 max-h150 relative z-10" />
-                    <div class="absolute top-5 left-20 lg:top-40 lg:left-20 border-3 border-e-primary w-[80%] lg:wfull hfull lg:h125 rounded-2.5"></div>
+                    <div class="absolute top-5 left-20 lg:top-20 xs:left-15 sm:left-10 lg:left-20 border-2 border-e-primary w-[80%] 2xs:w-[90%] sm:w-[95%] hfull lg:h-100  2lg:h-125 rounded-2.5"></div>
                 </div>
             </div>
             <div class="flex flex-col lg:flex-row gap8 lg:gap10 mt15 lg:mt40 mb20">
@@ -46,7 +46,7 @@
                         <rect width="45" height="46" rx="10" fill="#4DB6AC"/>
                         <rect x="10" y="16" width="45" height="46" rx="10" fill="#4DB6AC" fill-opacity="0.5"/>
                         </svg>
-                        <h3 class="text-4.5 lg:text-6">Built for Tomorrow</h3>
+                        <h3 class="text-4.5 2lg:text-6">Built for Tomorrow</h3>
                     </div>
                     <p class="text-3.5">A lot of upheaval and change has been happening in parking with industry consolidation, new technology, and a war for online sales. We put the pieces together to help you compete for the future.</p>
                 </div>
@@ -56,7 +56,7 @@
                         <rect width="45" height="46" rx="10" fill="#4DB6AC"/>
                         <rect x="10" y="16" width="45" height="46" rx="10" fill="#4DB6AC" fill-opacity="0.5"/>
                         </svg>
-                        <h3 class="text-4.5 lg:text-6">Profit Focus</h3>
+                        <h3 class="text-4.5 2lg:text-6">Profit Focus</h3>
                     </div>
                     <p class="text-3.5">Automation, team talent, and industry experience drive increased revenue and reduce costs for our real estate partners.</p>
                 </div>
@@ -66,7 +66,7 @@
                         <rect width="45" height="46" rx="10" fill="#4DB6AC"/>
                         <rect x="10" y="16" width="45" height="46" rx="10" fill="#4DB6AC" fill-opacity="0.5"/>
                         </svg>
-                        <h3 class="text-4.5 lg:text-6">All in One Solution</h3>
+                        <h3 class="text-4.5 2lg:text-6">All in One Solution</h3>
                     </div>
                     <p class="text-3.5">FamousParking handles everything from snow removal to advertising, payment & enforcement. You get more money and do less work.  </p>
                 </div>

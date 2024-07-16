@@ -14,8 +14,8 @@ export default defineConfig({
   // ...UnoCSS options
   shortcuts: [
     // short
-    ['w-site', 'wfull mx-auto max-w-screen-2xl lt-lg:px-6'],
-    ['w-content', 'wfull mx-auto max-w-screen-2lg lt-lg:px-6'],
+    ['w-site', 'wfull mx-auto max-w-screen-2xl lt-lg:px-6 px-10'],
+    ['w-content', 'wfull mx-auto max-w-screen-2lg lt-2md:px-6 2md:px-20'],
     ['flex-c', 'flex items-center'],
     ['flex-b', 'flex justify-between'],
     ['flex-cb', 'flex items-center justify-between'],
@@ -24,8 +24,8 @@ export default defineConfig({
     ['icon-link', 'h4 mt0.5 transform ease duration-400 group-hover:(translate-x-1.5)'],
     ['btn-link', 'py3 px6 2xl:px8 border border-gray-1 text-gray-1 hover:text-gray-9 duration-300 relative z1 of-hidden [&>span]:(block absolute w0 h0 -z1 rounded-[50%] bg-white -translate-50% -top-5px left-70px btn-transition)'],
     ['apply-link', 'py2 px5 2xl:px6 text-white tracking-tight hover:text-e-primary duration-300 relative z1 of-hidden [&>span]:(block absolute w0 h0 -z1 rounded-[50%] bg-white -translate-50% -top-5px left-70px btn-transition)'],
-    ['nav-link', 'py5 block hover:text-green-7 transition duration-300 relative hover:nav-active'],
-    ['nav-active', 'after:(absolute content-[\'\'] bottom-3.5 h1.5 w1.5 left-50% -translate-x-50% bg-green-7 rounded-full)'],
+    ['nav-link', 'py5 block hover:text-green-7 transition duration-300 relative'],
+    ['nav-active', ''],
     ['2-grid', 'grid grid-cols-1 md:grid-cols-1 lg:grid-cols-2 xl:grid-cols-2 lt-sm:gap-y-6 gap-2'],
     ['3-grid', 'grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-3 lt-sm:gap-y-6 gap-6'],
     ['4-grid', 'grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6'],
@@ -50,6 +50,15 @@ export default defineConfig({
 
   rules: [
     ['btn-transition', { transition: 'width .2s ease-in, height .4s ease-in' }],
+    ['bg-pos-right-top', { 'background-position': 'right top' }],
+    ['bg-pos-left-bottom', { 'background-position': 'left bottom' }],
+    ['bg-svgs-special', {
+      'background-image': `url('/images/Vector1.svg'), url('/images/Vector3.svg'), url('/images/Vector2.svg')`,
+      'background-position': 'right top, center, left bottom',
+      'background-repeat': 'no-repeat, no-repeat, no-repeat',
+      //'background-size': 'contain, contain, contain'  // You can adjust sizes as needed
+    }],
+    ['bg-size', {'background-size': '850px'}],
   ],
 
   theme: {
@@ -57,9 +66,12 @@ export default defineConfig({
     breakpoints: {
       'xs': '475px',
       // => @media (min-width: 475px) { ... }
+      '2xs': '530px',
       'sm': '640px',
       // => @media (min-width: 640px) { ... }
       'md': '768px',
+      // => @media (min-width: 768px) { ... }
+      '2md': '850px',
       // => @media (min-width: 768px) { ... }
       'lg': '1024px',
       // => @media (min-width: 1024px) { ... }
@@ -71,6 +83,10 @@ export default defineConfig({
       // => @media (min-width: 1536px) { ... }
       '3xl': '1780px',
       // => @media (min-width: 1780px) { ... }
+    },
+
+    screens: {
+      'mid-screen': { raw: '(min-width: 530px) and (max-width: 640px)' }
     },
 
     colors: {
@@ -97,7 +113,7 @@ export default defineConfig({
       fonts: {
         sen: [
           {
-            name: 'Sen',
+            name: 'Poppins',
             weights: ['400', '500', '600', '700', '800'],
           },
           {
@@ -105,26 +121,26 @@ export default defineConfig({
             provider: 'none',
           },
         ],
-        garamond: [
-          {
-            name: 'Cormorant Garamond',
-            weights: ['300', '400', '500', '600', '700'],
-          },
-          {
-            name: 'serif',
-            provider: 'none',
-          },
-        ],
-        playfair: [
-          {
-            name: 'Playfair Display',
-            weights: ['400', '500', '600', '700'],
-          },
-          {
-            name: 'serif',
-            provider: 'none',
-          },
-        ],
+        // garamond: [
+        //   {
+        //     name: 'Cormorant Garamond',
+        //     weights: ['300', '400', '500', '600', '700'],
+        //   },
+        //   {
+        //     name: 'serif',
+        //     provider: 'none',
+        //   },
+        // ],
+        // playfair: [
+        //   {
+        //     name: 'Playfair Display',
+        //     weights: ['400', '500', '600', '700'],
+        //   },
+        //   {
+        //     name: 'serif',
+        //     provider: 'none',
+        //   },
+        // ],
       },
     }),
   ],
