@@ -2,14 +2,14 @@
 </script>
 
 <template>
-    <div class="hero relative wfull h60dvh 2xl:h70dvh bg-[url('/images/about.jpg')] bg-cover bg-no-repeat -mt20 lg:-mt24">
+    <div class="hero relative wfull h60dvh 2xl:h70dvh bg-[url('/images/about.jpg')] bg-cover bg-center bg-no-repeat -mt20 lg:-mt24">
         <div class="hero-text text-white absolute bottom-10 w-site right-1/2 left-1/2 -translate-x-1/2 z-200">
             <h1 class="font-800 text-9 2md:text-12 lg-text-16 lg-w180">About Us</h1>
         </div>
         <div class="overlay absolute top-0 hfull wfull bg-[#000000] opacity-40"></div>
     </div>
 
-    <div class="bg-white py10 lg:py30 bg-[url('/images/Vector1.svg')] bg-no-repeat bg-pos-right-top my-15">
+    <div class="bg-white lg:py30 lg:bg-[url('/images/Vector1.svg')] bg-no-repeat bg-pos-right-top my-15">
         <div class="w-content lg:flex text-[#757575]">
             <div>
                 <div class="lg:w-[80%]">

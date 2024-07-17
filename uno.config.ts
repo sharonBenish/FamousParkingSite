@@ -16,8 +16,9 @@ export default defineConfig({
   // ...UnoCSS options
   shortcuts: [
     // short
-    ['w-site', 'wfull mx-auto max-w-screen-xl lt-lg:px-6 px-12'],
-    ['w-content', 'wfull mx-auto max-w-[1150px] lt-2md:px-6 2md:px-20'],
+    ['w-site', 'wfull mx-auto max-w-[1150px] lt-lg:px-6 px-12'],
+    ['w-content', 'wfull mx-auto max-w-screen-lg lt-2md:px-6 2md:px-20'],
+    ['w-content2', 'wfull mx-auto max-w-[1180px] lt-2md:px-6 2md:px-20'],
     ['flex-c', 'flex items-center'],
     ['flex-b', 'flex justify-between'],
     ['flex-cb', 'flex items-center justify-between'],
@@ -32,22 +33,6 @@ export default defineConfig({
     ['3-grid', 'grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-3 lt-sm:gap-y-6 gap-6'],
     ['4-grid', 'grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6'],
     // ['4-grid', 'grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap6'],
-
-    // program
-    ['program-card', 'h100 wfull relative bg-white border hover:border-e-primary duration-400'],
-    ['program-pop-out-card', 'absolute top-3 -left-2.5 bg-green-6 w1/2 text-center py0.5 text-e-primary text-3.5 before:(content-[\'\'] absolute -z1 -bottom-2.5 left-0 h0 w0 border-b-10 border-b-transparent border-t-10 border-t-transparent border-r-10 border-r-green-8)'],
-    ['scholarship-pop-out-card', 'absolute top-10 -left-2.5 bg-yellow-5 w1/2 text-center py0.5 text-e-primary text-3.5 before:(content-[\'\'] absolute -z1 -bottom-2.5 left-0 h0 w0 border-b-10 border-b-transparent border-t-10 border-t-transparent border-r-10 border-r-yellow-5)'],
-
-    // accordion
-    ['accordion-item', 'px mt-px wfull border-b border-gray-2 data-[state=open]:border-green-5 shadow-gray overflow-hidden first:mt-0 focus-within:relative data-[state=open]:bg-white focus-within:z-2'],
-    ['accordion-trigger', 'wfull flex-cb space-x-4 py5 outline-none border-none data-[state=open]:bg-white'],
-    // ['accordion-content', 'data-[state=open]:animate-slideDown data-[state=closed]:animate-slideUp overflow-hidden ']
-
-    // tab
-    ['tab-root', 'relative -mt10 w-site bg-white'],
-    ['tab-list', 'shrink-0 flex lt-sm:justify-between lg:space-x-4 bg-e-primary/4 px pt3'],
-    ['tab-trigger', 'py3.5 px3 sm:px lt-lg:leading-none tracking-tight fw500 lg:text-4.5 data-[state=active]:(bg-e-primary text-white) data-[state=inactive]:bg-white'],
-    ['tab-content', 'px py8'],
   ],
 
   rules: [
@@ -58,22 +43,25 @@ export default defineConfig({
       'background-image': `url('/images/Vector1.svg'), url('/images/Vector3.svg'), url('/images/Vector2.svg')`,
       'background-position': 'right top, center, left bottom',
       'background-repeat': 'no-repeat, no-repeat, no-repeat',
-      //'background-size': 'contain, contain, contain'  // You can adjust sizes as needed
+      'background-size': '58%, 50%, 50%'  // You can adjust sizes as needed
     }],
-    ['bg-size', {'background-size': '850px'}],
+    ['bg-size', {'background-size': '750px', 'background-position': 'right 30px'}],
+    ['bg-lg-size', {'background-size': '600px', 'background-position': 'left, 10%'}],
+    ['bg-sm-size', {'background-size': '400px', 'background-position': '-20px bottom'}]
   ],
 
   theme: {
     // ...
     breakpoints: {
-      'xs': '475px',
+      'xs': '460px',
       // => @media (min-width: 475px) { ... }
       '2xs': '530px',
       'sm': '640px',
       // => @media (min-width: 640px) { ... }
+      '2sm': '690px',
       'md': '768px',
       // => @media (min-width: 768px) { ... }
-      '2md': '850px',
+      '2md': '840px',
       // => @media (min-width: 768px) { ... }
       'lg': '1024px',
       // => @media (min-width: 1024px) { ... }

@@ -1,4 +1,23 @@
 <script setup lang="ts">
+const route = useRoute()
+const router = useRouter()
+
+const scrollToSection = () => {
+  const section = document.getElementById('contact');
+  if (section) {
+    section.scrollIntoView({ behavior: 'smooth' });
+  }
+}
+
+function goToContact() {
+  if (route.path === '/') {
+    // User is on the home page, scroll to contact
+    scrollToSection()
+  } else {
+    // User is not on the home page, navigate to home then scroll
+    router.push('/#contact')
+  }
+}
 defineProps({
   isOpen: Boolean,
 })
@@ -36,10 +55,10 @@ const navLink = [
         </NuxtLink>
         <div flex-auto />
         <NuxtLink
-          to="/"
+          @click="goToContact()"
           class="flex justify-center mt-12 border px-2 py-4"
         >
-          Get Proposal
+          Get In Touch
         </NuxtLink>
       </div>
     </div>
