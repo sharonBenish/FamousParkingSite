@@ -46,7 +46,7 @@
                         <rect width="45" height="46" rx="10" fill="#4DB6AC"/>
                         <rect x="10" y="16" width="45" height="46" rx="10" fill="#4DB6AC" fill-opacity="0.5"/>
                         </svg>
-                        <h3 class="text-4.5 2lg:text-6">Built for Tomorrow</h3>
+                        <h3 class="text-4.5">Built for Tomorrow</h3>
                     </div>
                     <p class="text-3.5">A lot of upheaval and change has been happening in parking with industry consolidation, new technology, and a war for online sales. We put the pieces together to help you compete for the future.</p>
                 </div>
@@ -56,7 +56,7 @@
                         <rect width="45" height="46" rx="10" fill="#4DB6AC"/>
                         <rect x="10" y="16" width="45" height="46" rx="10" fill="#4DB6AC" fill-opacity="0.5"/>
                         </svg>
-                        <h3 class="text-4.5 2lg:text-6">Profit Focus</h3>
+                        <h3 class="text-4.5">Profit Focus</h3>
                     </div>
                     <p class="text-3.5">Automation, team talent, and industry experience drive increased revenue and reduce costs for our real estate partners.</p>
                 </div>
@@ -66,7 +66,7 @@
                         <rect width="45" height="46" rx="10" fill="#4DB6AC"/>
                         <rect x="10" y="16" width="45" height="46" rx="10" fill="#4DB6AC" fill-opacity="0.5"/>
                         </svg>
-                        <h3 class="text-4.5 2lg:text-6">All in One Solution</h3>
+                        <h3 class="text-4.5">All in One Solution</h3>
                     </div>
                     <p class="text-3.5">FamousParking handles everything from snow removal to advertising, payment & enforcement. You get more money and do less work.  </p>
                 </div>
