@@ -31,16 +31,16 @@ function goToContact() {
     <div class="bg-white py10 lg:pb50 lg:pt30 mt10 bg-[url('/images/usecasesvg.svg')] bg-no-repeat bg-sm-size lg:bg-lg-size">
         <div class="w-content2 flex-col lg:flex-row flex gap10">
             <div class="lg:w-[45%]">
-                <h3 class="fw800 text-5 md:text-6 lg:text-8 mb6 lg:mb10">Tech value proposition</h3>
-                <p class="text-4 mb8">FamousParking.com leverages multiple tech workflows to drive efficiency and value creation that is then passed along to our owners in the form of highly competitive rates.</p>
-                <ul class="list-circle my3 ml4 lt-lg:hidden text-3.5 lg:text-4">
+                <h3 class="fw800 text-5 md:text-6 lg:text-8 mb6 lg:mb10 max-w-[400px]">Tech value proposition</h3>
+                <p class="text-4 mb8 max-w-[400px]">FamousParking.com leverages multiple tech workflows to drive efficiency and value creation that is then passed along to our owners in the form of highly competitive rates.</p>
+                <ul class="list-circle my3 ml4 lt-lg:hidden text-3.5 lg:text-4 max-w-[400px]">
                     <li class="mb4">Our tech forward team includes three full time coders and one modeling expert, with an emphasis on outcomes.</li>
                     <li class="mb4">Our proprietary code sets streamline pricing workflows and operations for both daily parking and events like sports games and concerts.</li>
                     <li class="mb4">Our DNA is AI-forward, with a focus on fostering internal prompt engineering talent.</li>
                     <li class="mb4">Our proprietary Excel models drive pricing efficiencies and create actionable insights for our team’s quality pricing decisions.</li>
                 </ul>
             </div>
-            <NuxtImg src="/images/technology.jpg" class="flex-1 max-h-[400px] object-cover overflow-hidden rounded-4 lg:rounded-[30px]" />
+            <NuxtImg src="/images/lpr.webp" class="flex-1 max-h-[400px] object-cover overflow-hidden rounded-4 lg:rounded-[30px]" />
             <ul class="list-circle my ml4 text-3.5 md:text-4 lg:hidden">
                 <li class="mb4">A dedicated business development team focused on increasing revenue.</li>
                 <li class="mb4">Dynamic Pricing system ensures drivers always pay the optimal rate.</li>

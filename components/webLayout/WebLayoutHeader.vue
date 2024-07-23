@@ -93,7 +93,6 @@ closeDropdown()
                 <svg width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
 <path d="M6.66663 11.6667H11.6666M33.3333 11.6667H18.3333M33.3333 28.3333H28.3333M6.66663 28.3333H21.6666M6.66663 20H33.3333" stroke="black" stroke-width="1.5" stroke-linecap="round"/>
 </svg>
-
               </button>
             </div>
           </div>

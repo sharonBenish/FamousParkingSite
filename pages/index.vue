@@ -18,15 +18,51 @@ function goToContact() {
     router.push('/#contact')
   }
 }
+
+const loading = ref(false)
+const success = ref(false)
+
+const contactForm = ref({
+    firstname: '',
+    lastName: '',
+    email: '',
+    number: '',
+    city: '',
+    address: '',
+    message: '',
+})
+const FORMSPARK_ACTION_URL = "https://submit-form.com/zdAuXJ9qB"
+
+async function submitForm() {
+    success.value = false
+    loading.value = true
+    await fetch(FORMSPARK_ACTION_URL, {
+        method: "POST",
+        headers: {
+            "Content-Type": "application/json",
+            Accept: "application/json",
+        },
+        body: JSON.stringify({
+        ...contactForm.value,
+        }),
+    }).then(()=>{
+        success.value = true;
+    }).catch(()=>{
+        alert("Couldn't submit form")
+    })
+    .finally(()=>{
+        loading.value = false
+    })
+}
 </script>
 
 <template>
     <!--HERO SECTION-->
     <div class="hero relative wfull h100dvh md:h85dvh 3xl:h70dvh bg-[url('/images/Hero-img.svg')] bg-cover -mt20 lg:-mt22">
-        <div class="hero-text text-white absolute bottom-10 w-site right-1/2 left-1/2 -translate-x-1/2 z-200">
-            <h1 class="font-800 text-9 lg:text-12 xl-text-18 lg:w180">Get Famous. Make Money.</h1>
+        <div class="hero-text text-white absolute bottom-20 w-site right-1/2 left-1/2 -translate-x-1/2 z-200">
+            <h1 class="font-800 text-10 2md:text-12 xl-text-18 lg:w220">Get Famous. Make Money.</h1>
             <div class="lg-flex lg-flex-row justify-between items-end">
-                <p class="font-600 xl:text-5 lg:w150 2xl:w180">We handle parking management needs so you can focus on what matters. Start today!</p>
+                <p class="font-600 xl:text-5 lg:w150">We handle parking management needs so you can focus on what matters. Start today!</p>
                 <button class="flex items-center gap1 lg-gap2 bg-e-primary mt4 lg-mt0 px-4 xl-px6 py-3 xl-py4 text-4 rounded-3 font-600" @click="goToContact()">
                     <svg class="h8 w8" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <path d="M4.88891 24.2511C4.87827 25.8447 6.18213 27.1662 7.77569 27.177L14.5568 27.2231C20.9669 27.2666 26.2163 22.0873 26.2591 15.6772C26.302 9.26716 21.1221 4.01709 14.712 3.97358L7.93095 3.92754C6.3374 3.91672 5.016 5.22043 5.00536 6.81399L4.88891 24.2511ZM6.82637 24.2643L6.94282 6.82715C6.94648 6.27885 7.36971 5.86127 7.91801 5.86499L14.6991 5.91103C20.061 5.94743 24.3575 10.3022 24.3217 15.6641C24.2859 21.026 19.9316 25.322 14.5697 25.2856L7.78863 25.2396C7.24033 25.2358 6.82271 24.8126 6.82637 24.2643ZM11.1182 20.7516C11.1158 21.1226 11.2838 21.4986 11.5657 21.7834C11.6971 21.9191 11.8542 22.0273 12.0279 22.1015C12.2015 22.1758 12.3882 22.2147 12.5771 22.216C12.766 22.2173 12.9532 22.1809 13.1278 22.109C13.3025 22.0371 13.461 21.9311 13.5942 21.7972L18.8661 16.5958C19.1406 16.3245 19.2962 15.9554 19.2988 15.5694C19.3014 15.1835 19.1507 14.8123 18.8799 14.5373L13.8282 9.38689C13.5569 9.11238 13.1877 8.95674 12.8018 8.95412C12.4158 8.9515 12.0447 9.10212 11.7697 9.37291C11.4952 9.64422 11.3396 10.0134 11.337 10.3993C11.3344 10.7852 11.4851 11.1565 11.7559 11.4315L15.8157 15.5453L11.5794 19.7249C11.2937 20.0068 11.1207 20.3805 11.1182 20.7516Z" fill="white"/>
@@ -74,7 +110,7 @@ function goToContact() {
         <div class="w-content relative">
             <div class="flex justify-between lt-2md:max-w-[500px] mx-auto">
                 <div class="text-center">
-                    <h3 class="text-5 lg-text-8 xl-text-10 text-[#424242] font700">Over 70+</h3>
+                    <h3 class="text-5 lg-text-8 xl-text-10 text-[#424242] font700">Over 70</h3>
                     <p class="text-3 xl-text-4 text-e-primary font600">Parking Locations</p>
                 </div>
                 <div class="text-center">
@@ -82,7 +118,7 @@ function goToContact() {
                     <p class="text-3 xl-text-4 text-e-primary font600">Customers</p>
                 </div>
                 <div class="text-center">
-                    <h3 class="text-5 lg-text-8 xl-text-10 text-[#424242] font700">Over 40+</h3>
+                    <h3 class="text-5 lg-text-8 xl-text-10 text-[#424242] font700">Over 40</h3>
                     <p class="text-3 xl-text-4 text-e-primary font600">Clients</p>
                 </div>
             </div>
@@ -158,44 +194,67 @@ function goToContact() {
         <div class="w-content">
             <h2 class="border-l-e-primary pl2 lg-pl4 border-l-8 mb6 flex items-center gap-2 lg-gap-4 text-5 lg-text-9 font700 text-[#424242] mb10">Get in touch</h2>
 
-            <form class="text-3 lg-text-4">
+            <form class="text-3 lg-text-4" @submit.prevent="submitForm" incomplete-message="Please fill out all the required fields">
                 <div class="flex justify-between gap-10 lg-gap20 mb10 lt-lg:flex-wrap">
                     <div class="w-full lg-w-1/2 flex flex-col gap2">
-                        <label>First name</label>
-                        <input class="outline-0 px2.5 py3 border border-[#E2E1E5] bg-white rounded placeholder-[#D2D2D2]" placeholder="First name" />
+                        <label for="firstname">First name</label>
+                        <input v-model="contactForm.firstname" required id="firstname" name="firstname" class="outline-0 px2.5 py3 border border-[#E2E1E5] bg-white rounded placeholder-[#D2D2D2]" placeholder="First name" />
                     </div>
                     <div class="w-full lg-w-1/2 flex flex-col gap2">
-                        <label>Last name</label>
-                        <input class="outline-0 px2.5 py3 border border-[#E2E1E5] bg-white rounded placeholder-[#D2D2D2]" placeholder="Last name" />
+                        <label for="lastname">Last name</label>
+                        <input v-model="contactForm.lastName" required id="lastname" name="lastname" class="outline-0 px2.5 py3 border border-[#E2E1E5] bg-white rounded placeholder-[#D2D2D2]" placeholder="Last name" />
                     </div>
                 </div>
                 <div class="flex justify-between gap-10 lg-gap20 mb10 lt-lg:flex-wrap">
                     <div class="wfull lg-w-1/2 flex flex-col gap2">
-                        <label>Email</label>
-                        <input type="email" class="outline-0 px2.5 py3 border border-[#E2E1E5] bg-white rounded placeholder-[#D2D2D2]" placeholder="Email" />
+                        <label for="email">Email</label>
+                        <input v-model="contactForm.email" required id="email" name="email" type="email" class="outline-0 px2.5 py3 border border-[#E2E1E5] bg-white rounded placeholder-[#D2D2D2]" placeholder="Email" />
                     </div>
                     <div class="wfull lg-w-1/2 flex flex-col gap2">
-                        <label>Phone number</label>
-                        <input type="number" class="outline-0 px2.5 py3 border border-[#E2E1E5] bg-white rounded placeholder-[#D2D2D2]" placeholder="Phone number" />
+                        <label for="number">Phone number</label>
+                        <input v-model="contactForm.number" required name="number" id="number" type="number" class="outline-0 px2.5 py3 border border-[#E2E1E5] bg-white rounded placeholder-[#D2D2D2]" placeholder="Phone number" />
                     </div>
                 </div>
                 <div class="flex flex-col gap2 mb10">
-                    <label>Parking facility address</label>
-                    <input type="text" class="outline-0 px2.5 py3 border border-[#E2E1E5] bg-white rounded placeholder-[#D2D2D2]" placeholder="Parking facility address" />
+                    <label for="address">Parking facility address</label>
+                    <input v-model="contactForm.address" required name="address" id="address" type="text" class="outline-0 px2.5 py3 border border-[#E2E1E5] bg-white rounded placeholder-[#D2D2D2]" placeholder="Parking facility address" />
                 </div>
                 <div class="flex flex-col gap2 mb10">
-                    <label>Parking facility city</label>
-                    <input type="text" class="outline-0 px2.5 py3 border border-[#E2E1E5] bg-white rounded placeholder-[#D2D2D2]" placeholder="Parking facility city" />
+                    <label for="city">Parking facility city</label>
+                    <input v-model="contactForm.city" required name="city" id="city" type="text" class="outline-0 px2.5 py3 border border-[#E2E1E5] bg-white rounded placeholder-[#D2D2D2]" placeholder="Parking facility city" />
                 </div>
                 <div class="flex flex-col gap2 mb10">
-                    <label>How can we help?</label>
-                    <textarea rows="4" class="outline-0 px2.5 py3 border border-[#E2E1E5] bg-white rounded placeholder-[#D2D2D2]" placeholder="How can we help?"></textarea>
+                    <label for="message">How can we help?</label>
+                    <textarea v-model="contactForm.message" required id="message" name="message" rows="4" class="outline-0 px2.5 py3 border border-[#E2E1E5] bg-white rounded placeholder-[#D2D2D2]" placeholder="How can we help?"></textarea>
                 </div>
+
+                <Transition name="slide-fade">
+                    <div v-if="success" class="my5 p5 border border-dashed border-green-6 text-green-6">
+                        Thank you for reaching out, our team will review your inquiry and respond as soon as possible.
+                    </div>
+                </Transition>
                 <div class="flex justify-end">
-                    <button class="bg-[#424242] rounded-2.5 px8 py3 lg-px12 lg-py4 text-3 lg-text-3.725 text-white font700">Submit</button>
+                    <button :disabled="loading" type="submit" class="bg-[#424242]! rounded-2.5 px8 py3 lg-px12 lg-py4 text-3 lg-text-3.725 text-white font700">
+                        <span v-if="loading">Loading...</span>
+                        <span v-else>Submit</span>
+                    </button>
                 </div>
-                
             </form>
-        </div>
+        </div> 
     </div>
+
 </template>
+
+<style scoped>
+.slide-fade-enter-active {
+  transition: transform 0.3s ease-out;
+}
+.slide-fade-leave-active {
+  transition: transform 0.3s cubic-bezier(1, 0.5, 0.8, 1);
+}
+.slide-fade-enter-from, .slide-fade-leave-to {
+  transform: translateX(100%);
+}
+#mc_embed_signup{
+    background:#fff; clear:left; font:14px Helvetica,Arial,sans-serif; width: 600px;}
+</style>

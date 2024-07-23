@@ -69,7 +69,7 @@ function goToContact() {
     <div class="bg-white py10 2lg:pb50 2lg:pt30 lg:pt20 my10 lt-2xs:bg-[url('/images/usecasemobile.svg')] lg:bg-[url('/images/usecasesvg.svg')] bg-no-repeat lt-2xs:bg-sm-size lg:bg-lg-size">
         <div class="w-content2 flex-col lg:flex-row flex gap10">
             <div class="lg:w-[45%]">
-                <h3 class="fw800 text-5 md:text-6 mb10 md:text-center lg:text-left lg:max-w-[400px]">Famous parking handles parking asset types including garages, open air lots, Off airport, Mixed use and hotels </h3>
+                <h3 class="fw800 text-5 md:text-6 mb10 md:text-center lg:text-left lg:max-w-[400px]">FamousParking handles parking asset types including garages, open air lots, off airport, mixed use and hotels </h3>
                 <p class="fw600 text-4 lg:text-4.5">FamousParking for across parking asset types </p>
                 <ul class="list-circle my3 ml4 text-4 lt-lg:hidden lg:max-w-[400px]">
                     <li class="mb4">A dedicated business development team focused on increasing revenue.</li>

@@ -33,7 +33,7 @@ function goToContact() {
             <div class="flex-col flex lg:flex-row-reverse gap10 lg:gap12 text-[#757575]">
                 <div class="lg:w-1/2">
                     <h2 class="text-[#424242] fw800 text-5 lg:text-7.5 mb5">Dynamic Pricing</h2>
-                    <p class="text-3.5">At Famous Parking, we use proprietary KPIs to monitor past pricing success and future profit potential at both facility and neighborhood levels. By considering factors like date/time, nearby events, and competitor pricing, we maximize revenue during peak times and boost occupancy during off-peak hours. This adaptive strategy guarantees that you consistently offer competitive prices, attracting more customers and optimizing your earnings. While competitors rely on algorithms and AI tools far less sophisticated than the human brain, we use these tools as an optimization layer for our employees, not as our primary pricing strategy. Your bottom line will thank us.</p>
+                    <p class="text-3.5">We use proprietary KPIs to monitor past pricing success and future profit potential at both facility and neighborhood levels. By considering factors like date/time, nearby events, and competitor pricing, we maximize revenue during peak times and boost occupancy during off-peak hours. This adaptive strategy guarantees that you consistently offer competitive prices, attracting more customers and optimizing your earnings. While competitors rely on algorithms and AI tools far less sophisticated than the human brain, we use these tools as an optimization layer for our employees, not as our primary pricing strategy. Your bottom line will thank us.</p>
                 </div>
                 <NuxtImg class="lg:w-1/2" src="/images/Pricing.jpg"/>
             </div>
@@ -41,7 +41,7 @@ function goToContact() {
             <div class="flex flex-col lg:flex-row gap10 lg:gap20 text-[#757575]">
                 <div class="lg:w-1/2">
                     <h2 class="text-[#424242] fw800 text-5 lg:text-7.5 mb5">Track every vehicle with license plate recognition</h2>
-                    <p class="text-3.5">At FamousParking, our advanced LPR system ensures seamless entry and exit monitoring, enhancing security and compliance. This technology provides real-time data collection, speeding up the parking process and improving management. Our LPR cameras accurately track vehicles, enabling efficient enforcement of parking rules and immediate identification of non-compliant vehicles.</p>
+                    <p class="text-3.5">Our advanced LPR system ensures seamless entry and exit monitoring, enhancing security and compliance. This technology provides real-time data collection, speeding up the parking process and improving management. Our LPR cameras accurately track vehicles, enabling efficient enforcement of parking rules and immediate identification of non-compliant vehicles.</p>
                 </div>
                 <NuxtImg class="lg:w-1/2" src="/images/track.jpg"/>
             </div>
