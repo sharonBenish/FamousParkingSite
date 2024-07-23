@@ -138,7 +138,7 @@
 
             <p>By filling in the contact form with their Data, the User authorizes FamousParking.com to use these details to reply to requests for information, quotes or any other kind of request as indicated by the form’s header.</p>
 
-            Personal Data processed: email address; first name; last name. 
+            <!-- Personal Data processed: email address; first name; last name. 
 
             Phone contact (FamousParking.com) 
 
@@ -551,6 +551,7 @@ Tracker indicates any technology - e.g Cookies, unique identifiers, web beacons,
 
 Legal information 
 
-This privacy policy relates solely to FamousParking.com, if not stated otherwise within this document.
+This privacy policy relates solely to FamousParking.com, if not stated otherwise within this document. -->
+        </div>
     </div>
 </template>
