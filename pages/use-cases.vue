@@ -78,7 +78,7 @@ function goToContact() {
                     <li class="mb4">No need for costly hardware or gate systems.</li>
                 </ul>
             </div>
-            <div class="lg:flex-1 sm:max-w-[600px] 2xl:border-4">
+            <div class="lg:flex-1 sm:max-w-[600px]">
                 <div class="flex justify-center gap3 lg:gap5 ml4 lg:ml10 mb3 lg:mb5">
                     <NuxtImg src="/images/park1.jpg" class="flex-auto w-1/2 lt-2lg:max-h-[200px] object-contain" />
                     <NuxtImg src="/images/park2.jpg" class="flex-auto w-1/2 lt-2lg:max-h-[200px] object-contain" />
