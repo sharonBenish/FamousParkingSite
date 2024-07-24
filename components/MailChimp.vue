@@ -1,4 +1,8 @@
 <script lang="ts" setup>
+const mail = ref('');
+// function clearField(){
+//     mail.value = ''
+// }
 </script>
 
 <template>
@@ -9,7 +13,7 @@
                     <h3 class="mb2 text-e-primary fw500">Subscribe to Newsletter</h3>
                 </div> -->
                 <div class="mc-field-group flex">
-                    <input type="email" name="EMAIL" class="wfull email border border-e-primary px4 py3 outline-none! placeholder-text-3.5 text-3.5" placeholder="Subscribe to Newsletter..." id="mce-EMAIL" required>
+                    <input v-model="mail" type="email" name="EMAIL" class="wfull email border border-e-primary px4 py3 outline-none! placeholder-text-3.5 text-3.5" placeholder="Subscribe to Newsletter..." id="mce-EMAIL" required>
                     <button type="submit" id="mc-embedded-subscribe" class="button bg-e-primary! px3 flex items-center"><svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24"><path fill="#fff" d="M16.15 13H5q-.425 0-.712-.288T4 12t.288-.712T5 11h11.15L13.3 8.15q-.3-.3-.288-.7t.288-.7q.3-.3.713-.312t.712.287L19.3 11.3q.15.15.213.325t.062.375t-.062.375t-.213.325l-4.575 4.575q-.3.3-.712.288t-.713-.313q-.275-.3-.288-.7t.288-.7z"/></svg></button> 
                 </div>
                 <div id="mce-responses" class="clear foot">

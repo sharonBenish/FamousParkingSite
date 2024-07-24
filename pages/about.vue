@@ -14,7 +14,7 @@
             <div>
                 <div class="lg:w-[80%]">
                     <h3 class="text-5 lg:text-9 fw800 text-[#424242] border-b-e-primary border-b mb5 mr50">Our Story</h3>
-                    <p class="text-3 lg:text-4">FamousParking was founded in 2024 by industry insiders and SpotHero veterans Steven Lawrence and Tim Maloney, who recognized that the "growth at all costs" mentality in parking management was reducing value for owners. At FamousParking, we decided to do things differently. With one employee per 60 spots, a strong technical team, and a passion for value creation, we provide individualized attention that our competitors cannot match.</p>
+                    <p class="text-3 lg:text-4">FamousParking was founded in 2024 by Steven Lawrence who recognized that the "growth at all costs" mentality in parking management was reducing value for owners. At FamousParking, we decided to do things differently. With one employee per 60 spots, a strong technical team, and a passion for value creation, we provide individualized attention that our competitors cannot match.</p>
                 </div>
                 <NuxtImg src="/images/meeting.jpg" class="mt10 wfull hauto " />
             </div>

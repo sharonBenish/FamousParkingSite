@@ -337,222 +337,214 @@
 
             <h3>O. Registration and authentication</h3>
 
-            <!-- By registering or authenticating, Users allow FamousParking.com to identify them and give them access to dedicated services. 
-            Depending on what is described below, third parties may provide registration and authentication services. In this case, FamousParking.com will be able to access some Data, stored by these third-party services, for registration or identification purposes. 
+            <p>By registering or authenticating, Users allow FamousParking.com to identify them and give them access to dedicated services.<br />
+            Depending on what is described below, third parties may provide registration and authentication services. In this case, FamousParking.com will be able to access some Data, stored by these third-party services, for registration or identification purposes.</p>
 
-            Direct registration (FamousParking.com) 
+            <h4>Direct registration (FamousParking.com)</h4>
 
-            The User registers by filling out the registration form and providing the Personal Data directly to FamousParking.com. 
+            <p>The User registers by filling out the registration form and providing the Personal Data directly to FamousParking.com.</p>
 
-            Personal Data processed: address; date of birth; email address; first name; last name; password; phone number. 
+            <p>Personal Data processed: address; date of birth; email address; first name; last name; password; phone number.</p>
 
-            P. Tag Management 
+            <h3>P. Tag Management</h3>
 
-            This type of service helps the Owner to manage the tags or scripts needed on FamousParking.com in a centralized fashion. 
-            This results in the Users' Data flowing through these services, potentially resulting in the retention of this Data. 
+            <p>This type of service helps the Owner to manage the tags or scripts needed on FamousParking.com in a centralized fashion.<br />
+            This results in the Users' Data flowing through these services, potentially resulting in the retention of this Data.</p>
 
-            Segment (Segment Inc.) 
+            <h4>Segment (Segment Inc.)</h4>
 
-            Segment is a tag management service provided by Segment.io, Inc. 
+            <p>Segment is a tag management service provided by Segment.io, Inc.</p>
 
-            Personal Data processed: Cookies; Usage Data. 
+            <p>Personal Data processed: Cookies; Usage Data.</p>
 
-            Place of processing: United States – Privacy Policy. 
+            <p>Place of processing: United States – Privacy Policy.</p>
 
-            Q. Traffic optimization and distribution 
+            <h3>Q. Traffic optimization and distribution</h3>
 
-            This type of service allows FamousParking.com to distribute their content using servers located across different countries and to optimize their performance. 
-            Which Personal Data are processed depends on the characteristics and the way these services are implemented. Their function is to filter communications between FamousParking.com and the User's browser. 
-            Considering the widespread distribution of this system, it is difficult to determine the locations to which the contents that may contain Personal Information of the User are transferred. 
+            <p>This type of service allows FamousParking.com to distribute their content using servers located across different countries and to optimize their performance.
+            Which Personal Data are processed depends on the characteristics and the way these services are implemented. Their function is to filter communications between FamousParking.com and the User's browser.
+            Considering the widespread distribution of this system, it is difficult to determine the locations to which the contents that may contain Personal Information of the User are transferred.</p>
 
-            Cloudflare (Cloudflare Inc.) 
+            <h4>Cloudflare (Cloudflare Inc.)</h4>
 
-            Cloudflare is a traffic optimization and distribution service provided by Cloudflare Inc. 
-            The way Cloudflare is integrated means that it filters all the traffic through FamousParking.com, i.e., communication between FamousParking.com and the User's browser, while also allowing analytical data from FamousParking.com to be collected. 
+            <p>Cloudflare is a traffic optimization and distribution service provided by Cloudflare Inc. 
+            The way Cloudflare is integrated means that it filters all the traffic through FamousParking.com, i.e., communication between FamousParking.com and the User's browser, while also allowing analytical data from FamousParking.com to be collected.</p>
 
-            Personal Data processed: Cookies; various types of Data as specified in the privacy policy of the service. 
+            <p>Personal Data processed: Cookies; various types of Data as specified in the privacy policy of the service.</p>
 
-            Place of processing: United States – Privacy Policy.
+            <p>Place of processing: United States – Privacy Policy.</p>
 
-            R. User database management
+            <h3>R. User database management</h3>
 
-his type of service allows the Owner to build user profiles by starting from an email address, a personal name, or other information that the User provides to FamousParking.com, as well as to track User activities through analytics features. This Personal Data may also be matched with publicly available information about the User (such as social networks' profiles) and used to build private profiles that the Owner can display and use for improving FamousParking.com. 
-Some of these services may also enable the sending of timed messages to the User, such as emails based on specific actions performed on FamousParking.com. 
+            <p>This type of service allows the Owner to build user profiles by starting from an email address, a personal name, or other information that the User provides to FamousParking.com, as well as to track User activities through analytics features. This Personal Data may also be matched with publicly available information about the User (such as social networks' profiles) and used to build private profiles that the Owner can display and use for improving FamousParking.com. 
+            Some of these services may also enable the sending of timed messages to the User, such as emails based on specific actions performed on FamousParking.com.</p>
 
-HubSpot CRM (HubSpot, Inc.) 
+            <h4>HubSpot CRM (HubSpot, Inc.)</h4>
 
-HubSpot CRM is a User database management service provided by HubSpot, Inc. 
+            <p>HubSpot CRM is a User database management service provided by HubSpot, Inc.</p>
 
-Personal Data processed: email address; phone number; various types of Data as specified in the privacy policy of the service. 
+            <p>Personal Data processed: email address; phone number; various types of Data as specified in the privacy policy of the service.</p>
 
-Place of processing: United States – Privacy Policy. 
+            <p>Place of processing: United States – Privacy Policy.</p>
 
-Information on opting out of interest-based advertising
+            <h2>Information on opting out of interest-based advertising</h2>
 
-In addition to any opt-out feature provided by any of the services listed in this document, Users may learn more on how to opt out of interest-based advertising within the dedicated section of the Cookie Policy.
+            <p>In addition to any opt-out feature provided by any of the services listed in this document, Users may learn more on how to opt out of interest-based advertising within the dedicated section of the Cookie Policy.</p>
 
-A. Pseudonymous use
+            <h3>A. Pseudonymous use</h3>
 
-When registering for FamousParking.com, Users have the option to indicate a nickname or pseudonym. In this case, Users' Personal Data shall not be published or made publicly available. Any activity performed by Users on FamousParking.com shall appear in connection with the indicated nickname or pseudonym. However, Users acknowledge and accept that their activity on FamousParking.com, including content, information or any other material possibly uploaded or shared on a voluntary and intentional basis may directly or indirectly reveal their identity. 
+            <p>When registering for FamousParking.com, Users have the option to indicate a nickname or pseudonym. In this case, Users' Personal Data shall not be published or made publicly available. Any activity performed by Users on FamousParking.com shall appear in connection with the indicated nickname or pseudonym. However, Users acknowledge and accept that their activity on FamousParking.com, including content, information or any other material possibly uploaded or shared on a voluntary and intentional basis may directly or indirectly reveal their identity.</p>
 
-B. The Service is not directed to children under the age of 13 
+            <h3>B. The Service is not directed to children under the age of 13</h3>
 
-Users declare themselves to be adult according to their applicable legislation. Minors may use FamousParking.com only with the assistance of a parent or guardian. Under no circumstance persons under the age of 13 may use FamousParking.com. 
+            <p>Users declare themselves to be adult according to their applicable legislation. Minors may use FamousParking.com only with the assistance of a parent or guardian. Under no circumstance persons under the age of 13 may use FamousParking.com.</p>
 
-C. Unique device identification
+            <h3>C. Unique device identification</h3>
 
-FamousParking.com may track Users by storing a unique identifier of their device, for analytics purposes or for storing Users' preferences. 
+            <p>FamousParking.com may track Users by storing a unique identifier of their device, for analytics purposes or for storing Users' preferences.</p>
 
-D. User identification via a universally unique identifier (UUID)
+            <h3>D. User identification via a universally unique identifier (UUID)</h3>
 
-FamousParking.com may track Users by storing a so-called universally unique identifier (or short UUID) for analytics purposes or for storing Users' preferences. This identifier is generated upon installation of this Application, it persists between Application launches and updates, but it is lost when the User deletes the Application. A reinstall generates a new UUID.
+            <p>FamousParking.com may track Users by storing a so-called universally unique identifier (or short UUID) for analytics purposes or for storing Users' preferences. This identifier is generated upon installation of this Application, it persists between Application launches and updates, but it is lost when the User deletes the Application. A reinstall generates a new UUID.</p>
 
-‍
+            <h2>Cookie Policy</h2>
 
-Cookie Policy
+            <p>FamousParking.com uses Trackers. To learn more, Users may consult the <a>Cookie Policy</a>.</p>
 
-FamousParking.com uses Trackers. To learn more, Users may consult the Cookie Policy. 
+            <h2>Further Information for Users</h2>
 
-Further Information for Users
+            <h3>A. Legal basis of processing</h3>
 
-A. Legal basis of processing 
+            <p>The Owner may process Personal Data relating to Users if one of the following applies:</p>
 
-The Owner may process Personal Data relating to Users if one of the following applies: 
+            <ul>
+                <li>Users have given their consent for one or more specific purposes.</li>
+                <li>provision of Data is necessary for the performance of an agreement with the User and/or for any pre-contractual obligations thereof.</li>
+                <li>processing is necessary for compliance with a legal obligation to which the Owner is subject;</li>
+                <li>processing is related to a task that is carried out in the public interest or in the exercise of official authority vested in the Owner;</li>
+                <li>processing is necessary for the purposes of the legitimate interests pursued by the Owner or by a third party.</li>
+            </ul>
+            
+            <p>In any case, the Owner will gladly help to clarify the specific legal basis that applies to the processing, and in particular whether the provision of Personal Data is a statutory or contractual requirement, or a requirement necessary to enter into a contract.</p>
 
-Users have given their consent for one or more specific purposes. 
+            <h3>B. Further information about retention time</h3>
 
-provision of Data is necessary for the performance of an agreement with the User and/or for any pre-contractual obligations thereof; 
+            <p>Unless specified otherwise in this document, Personal Data shall be processed and stored for as long as required by the purpose they have been collected for and may be retained for longer due to applicable legal obligation or based on the Users’ consent.</p>
 
-processing is necessary for compliance with a legal obligation to which the Owner is subject; 
+            <p>Therefore:</p>
 
-processing is related to a task that is carried out in the public interest or in the exercise of official authority vested in the Owner; 
+            <ul>
+                <li>Personal Data collected for purposes related to the performance of a contract between the Owner and the User shall be retained until such contract has been fully performed.</li>
+                <li>Personal Data collected for the purposes of the Owner’s legitimate interests shall be retained as long as needed to fulfill such purposes. Users may find specific information regarding the legitimate interests pursued by the Owner within the relevant sections of this document or by contacting the Owner.</li>
+            </ul>
 
-processing is necessary for the purposes of the legitimate interests pursued by the Owner or by a third party. 
+            <p>The Owner may be allowed to retain Personal Data for a longer period whenever the User has given consent to such processing, as long as such consent is not withdrawn. Furthermore, the Owner may be obliged to retain Personal Data for a longer period whenever required to fulfil a legal obligation or upon order of an authority.</p>
+            
+            <p>Once the retention period expires, Personal Data shall be deleted. Therefore, the right of access, the right to erasure, the right to rectification and the right to data portability cannot be enforced after expiration of the retention period.</p>
 
-In any case, the Owner will gladly help to clarify the specific legal basis that applies to the processing, and in particular whether the provision of Personal Data is a statutory or contractual requirement, or a requirement necessary to enter into a contract.
+            <h3>C. The rights of Users based on the General Data Protection Regulation (GDPR)</h3>
 
-B. Further information about retention time 
+            <p>Users may exercise certain rights regarding their Data processed by the Owner.</p>
 
-Unless specified otherwise in this document, Personal Data shall be processed and stored for as long as required by the purpose they have been collected for and may be retained for longer due to applicable legal obligation or based on the Users’ consent. 
+            <p>In particular, Users have the right to do the following, to the extent permitted by law:</p>
 
-Therefore: 
+            <ul>
+                <li><span>Withdraw their consent at any time:</span>Users have the right to withdraw consent where they have previously given their consent to the processing of their Personal Data.</li>
+                <li><span>Object to processing of their Data:</span>Users have the right to object to the processing of their Data if the processing is carried out on a legal basis other than consent.</li>
+                <li><span>Access their Data:</span>Users have the right to learn if Data is being processed by the Owner, obtain disclosure regarding certain aspects of the processing and obtain a copy of the Data undergoing processing.</li>
+                <li><span>Verify and seek rectification:</span>Users have the right to verify the accuracy of their Data and ask for it to be updated or corrected.</li>
+                <li><span>Restrict the processing of their Data:</span>Users have the right to restrict the processing of their Data. In this case, the Owner will not process their Data for any purpose other than storing it.</li>
+                <li><span>Have their Personal Data deleted or otherwise removed:</span>Users have the right to obtain the erasure of their Data from the Owner.</li>
+                <li><span>Receive their Data and have it transferred to another controller:</span>Users have the right to receive their Data in a structured, commonly used and machine readable format and, if technically feasible, to have it transmitted to another controller without any hindrance.</li>
+                <li><span>Lodge a complaint:</span>Users have the right to bring a claim before their competent data protection authority.</li>
+            </ul>
 
-Personal Data collected for purposes related to the performance of a contract between the Owner and the User shall be retained until such contract has been fully performed. 
+            <p>Users are also entitled to learn about the legal basis for Data transfers abroad including to any international organization governed by public international law or set up by two or more countries, such as the UN, and about the security measures taken by the Owner to safeguard their Data.</p>
 
-Personal Data collected for the purposes of the Owner’s legitimate interests shall be retained as long as needed to fulfill such purposes. Users may find specific information regarding the legitimate interests pursued by the Owner within the relevant sections of this document or by contacting the Owner. 
+            <h4>Details about the right to object to processing</h4>
 
-The Owner may be allowed to retain Personal Data for a longer period whenever the User has given consent to such processing, as long as such consent is not withdrawn. Furthermore, the Owner may be obliged to retain Personal Data for a longer period whenever required to fulfil a legal obligation or upon order of an authority. 
- 
-Once the retention period expires, Personal Data shall be deleted. Therefore, the right of access, the right to erasure, the right to rectification and the right to data portability cannot be enforced after expiration of the retention period. 
+            <p>Where Personal Data is processed for a public interest, in the exercise of an official authority vested in the Owner or for the purposes of the legitimate interests pursued by the Owner, Users may object to such processing by providing a ground related to their particular situation to justify the objection.</p>
 
-C. The rights of Users based on the General Data Protection Regulation (GDPR) 
+            <p>Users must know that, however, should their Personal Data be processed for direct marketing purposes, they can object to that processing at any time, free of charge and without providing any justification. Where the User objects to processing for direct marketing purposes, the Personal Data will no longer be processed for such purposes. To learn whether the Owner is processing Personal Data for direct marketing purposes, Users may refer to the relevant sections of this document.</p>
 
-Users may exercise certain rights regarding their Data processed by the Owner. 
+            <h4>How to exercise these rights</h4>
 
-In particular, Users have the right to do the following, to the extent permitted by law: 
+            <p>Any requests to exercise User rights can be directed to the Owner through the contact details provided in this document. Such requests are free of charge and will be answered by the Owner as early as possible and always within one month, providing Users with the information required by law. Any rectification or erasure of Personal Data or restriction of processing will be communicated by the Owner to each recipient, if any, to whom the Personal Data has been disclosed unless this proves impossible or involves disproportionate effort. At the Users’ request, the Owner will inform them about those recipients.</p>
 
-Withdraw their consent at any time. Users have the right to withdraw consent where they have previously given their consent to the processing of their Personal Data. 
+            <h2>Additional information about Data collection and processing</h2>
 
-Object to processing of their Data. Users have the right to object to the processing of their Data if the processing is carried out on a legal basis other than consent. 
+            <h3>A. Legal Action</h3>
 
-Access their Data. Users have the right to learn if Data is being processed by the Owner, obtain disclosure regarding certain aspects of the processing and obtain a copy of the Data undergoing processing. 
+            <p>The User's Personal Data may be used for legal purposes by the Owner in Court or in the stages leading to possible legal action arising from improper use of FamousParking.com or the related Services.
+            The User declares to be aware that the Owner may be required to reveal personal data upon request of public authorities.</p>
 
-Verify and seek rectification. Users have the right to verify the accuracy of their Data and ask for it to be updated or corrected. 
+            <h3>B. Additional information about User's Personal Data</h3>
 
-Restrict the processing of their Data. Users have the right to restrict the processing of their Data. In this case, the Owner will not process their Data for any purpose other than storing it. 
+            <p>In addition to the information contained in this privacy policy, FamousParking.com may provide the User with additional and contextual information concerning particular Services or the collection and processing of Personal Data upon request.</p>
 
-Have their Personal Data deleted or otherwise removed. Users have the right to obtain the erasure of their Data from the Owner. 
+            <h3>C. System logs and maintenance</h3>
 
-Receive their Data and have it transferred to another controller. Users have the right to receive their Data in a structured, commonly used and machine readable format and, if technically feasible, to have it transmitted to another controller without any hindrance. 
+            <p>For operation and maintenance purposes, FamousParking.com and any third-party services may collect files that record interaction with FamousParking.com (System logs) or use other Personal Data (such as the IP Address) for this purpose.</p>
 
-Lodge a complaint. Users have the right to bring a claim before their competent data protection authority. 
+            <h3>D. Information not contained in this policy</h3>
 
-Users are also entitled to learn about the legal basis for Data transfers abroad including to any international organization governed by public international law or set up by two or more countries, such as the UN, and about the security measures taken by the Owner to safeguard their Data. 
+            <p>More details concerning the collection or processing of Personal Data may be requested from the Owner at any time. Please see the contact information at the beginning of this document.</p>
 
-Details about the right to object to processing 
+            <h3>E. Changes to this privacy policy</h3>
 
-Where Personal Data is processed for a public interest, in the exercise of an official authority vested in the Owner or for the purposes of the legitimate interests pursued by the Owner, Users may object to such processing by providing a ground related to their particular situation to justify the objection. 
+            <p>The Owner reserves the right to make changes to this privacy policy at any time by notifying its Users on this page and possibly within FamousParking.com and/or - as far as technically and legally feasible - sending a notice to Users via any contact information available to the Owner. It is strongly recommended to check this page often, referring to the date of the last modification listed at the bottom.</p>
+            
+            <p>Should the changes affect processing activities performed on the basis of the User’s consent, the Owner shall collect new consent from the User, where required.</p>
 
-Users must know that, however, should their Personal Data be processed for direct marketing purposes, they can object to that processing at any time, free of charge and without providing any justification. Where the User objects to processing for direct marketing purposes, the Personal Data will no longer be processed for such purposes. To learn whether the Owner is processing Personal Data for direct marketing purposes, Users may refer to the relevant sections of this document. 
+            <h3>F. Definitions and legal references</h3>
 
-How to exercise these rights 
+            <h4>Personal Data (or Data)</h4>
 
-Any requests to exercise User rights can be directed to the Owner through the contact details provided in this document. Such requests are free of charge and will be answered by the Owner as early as possible and always within one month, providing Users with the information required by law. Any rectification or erasure of Personal Data or restriction of processing will be communicated by the Owner to each recipient, if any, to whom the Personal Data has been disclosed unless this proves impossible or involves disproportionate effort. At the Users’ request, the Owner will inform them about those recipients. 
+            <p>Any information that directly, indirectly, or in connection with other information — including a personal identification number — allows for the identification or identifiability of a natural person.</p>
 
-Additional information about Data collection and processing
+            <h4>Usage Data</h4>
 
-A. Legal Action
+            <p>Information collected automatically through FamousParking.com (or third-party services employed in FamousParking.com), which can include: the IP addresses or domain names of the computers utilized by the Users who use FamousParking.com, the URI addresses (Uniform Resource Identifier), the time of the request, the method utilized to submit the request to the server, the size of the file received in response, the numerical code indicating the status of the server's answer (successful outcome, error, etc.), the country of origin, the features of the browser and the operating system utilized by the User, the various time details per visit (e.g., the time spent on each page within the Application) and the details about the path followed within the Application with special reference to the sequence of pages visited, and other parameters about the device operating system and/or the User's IT environment.</p>
 
-The User's Personal Data may be used for legal purposes by the Owner in Court or in the stages leading to possible legal action arising from improper use of FamousParking.com or the related Services. 
-The User declares to be aware that the Owner may be required to reveal personal data upon request of public authorities. 
+            <h4>User</h4>
 
-B. Additional information about User's Personal Data
+            <p>The individual using FamousParking.com who, unless otherwise specified, coincides with the Data Subject.</p>
 
-In addition to the information contained in this privacy policy, FamousParking.com may provide the User with additional and contextual information concerning particular Services or the collection and processing of Personal Data upon request.
+            <h4>Data Subject</h4>
 
-C. System logs and maintenance 
+            <p>The natural person to whom the Personal Data refers.</p>
 
-For operation and maintenance purposes, FamousParking.com and any third-party services may collect files that record interaction with FamousParking.com (System logs) or use other Personal Data (such as the IP Address) for this purpose.
+            <h4>Data Processor (or Processor)</h4>
 
-D. Information not contained in this policy 
+            <p>The natural or legal person, public authority, agency or other body which processes Personal Data on behalf of the Controller, as described in this privacy policy.</p>
 
-More details concerning the collection or processing of Personal Data may be requested from the Owner at any time. Please see the contact information at the beginning of this document.
+            <h4>Data Controller (or Owner)</h4>
 
-E. Changes to this privacy policy 
+            <p>The natural or legal person, public authority, agency or other body which, alone or jointly with others, determines the purposes and means of the processing of Personal Data, including the security measures concerning the operation and use of FamousParking.com. The Data Controller, unless otherwise specified, is the Owner of FamousParking.com.</p>
 
-The Owner reserves the right to make changes to this privacy policy at any time by notifying its Users on this page and possibly within FamousParking.com and/or - as far as technically and legally feasible - sending a notice to Users via any contact information available to the Owner. It is strongly recommended to check this page often, referring to the date of the last modification listed at the bottom. 
- 
-Should the changes affect processing activities performed on the basis of the User’s consent, the Owner shall collect new consent from the User, where required. 
+            <h4>FamousParking.com (or this Application)</h4>
 
-F. Definitions and legal references 
+            <p>The means by which the Personal Data of the User is collected and processed.</p>
 
-Personal Data (or Data) 
+            <h4>Service</h4>
 
-Any information that directly, indirectly, or in connection with other information — including a personal identification number — allows for the identification or identifiability of a natural person. 
+            <p>The service provided by FamousParking.com as described in the relative terms (if available) and on this site/application.</p>
 
-Usage Data 
+            <h4>European Union (or EU)</h4>
 
-Information collected automatically through FamousParking.com (or third-party services employed in FamousParking.com), which can include: the IP addresses or domain names of the computers utilized by the Users who use FamousParking.com, the URI addresses (Uniform Resource Identifier), the time of the request, the method utilized to submit the request to the server, the size of the file received in response, the numerical code indicating the status of the server's answer (successful outcome, error, etc.), the country of origin, the features of the browser and the operating system utilized by the User, the various time details per visit (e.g., the time spent on each page within the Application) and the details about the path followed within the Application with special reference to the sequence of pages visited, and other parameters about the device operating system and/or the User's IT environment. 
+            <p>Unless otherwise specified, all references made within this document to the European Union include all current member states to the European Union and the European Economic Area.</p>
 
-User 
+            <h4>Cookie</h4>
 
-The individual using FamousParking.com who, unless otherwise specified, coincides with the Data Subject. 
+            <p>Cookies are Trackers consisting of small sets of data stored in the User's browser.</p>
 
-Data Subject 
+            <h4>Tracker</h4>
 
-The natural person to whom the Personal Data refers. 
+            <p>Tracker indicates any technology - e.g Cookies, unique identifiers, web beacons, embedded scripts, e-tags and fingerprinting - that enables the tracking of Users, for example by accessing or storing information on the User’s device.</p>
 
-Data Processor (or Processor) 
+            <h4>Legal information</h4>
 
-The natural or legal person, public authority, agency or other body which processes Personal Data on behalf of the Controller, as described in this privacy policy. 
-
-Data Controller (or Owner) 
-
-The natural or legal person, public authority, agency or other body which, alone or jointly with others, determines the purposes and means of the processing of Personal Data, including the security measures concerning the operation and use of FamousParking.com. The Data Controller, unless otherwise specified, is the Owner of FamousParking.com. 
-
-FamousParking.com (or this Application) 
-
-The means by which the Personal Data of the User is collected and processed. 
-
-Service 
-
-The service provided by FamousParking.com as described in the relative terms (if available) and on this site/application. 
-
-European Union (or EU) 
-
-Unless otherwise specified, all references made within this document to the European Union include all current member states to the European Union and the European Economic Area. 
-
-Cookie 
-
-Cookies are Trackers consisting of small sets of data stored in the User's browser. 
-
-Tracker 
-
-Tracker indicates any technology - e.g Cookies, unique identifiers, web beacons, embedded scripts, e-tags and fingerprinting - that enables the tracking of Users, for example by accessing or storing information on the User’s device. 
-
-Legal information 
-
-This privacy policy relates solely to FamousParking.com, if not stated otherwise within this document. -->
+            <p>This privacy policy relates solely to FamousParking.com, if not stated otherwise within this document.</p>
         </div>
     </div>
 </template>
