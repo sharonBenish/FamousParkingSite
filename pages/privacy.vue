@@ -138,242 +138,243 @@
 
             <p>By filling in the contact form with their Data, the User authorizes FamousParking.com to use these details to reply to requests for information, quotes or any other kind of request as indicated by the form’s header.</p>
 
-            <!-- Personal Data processed: email address; first name; last name. 
+            <p>Personal Data processed: email address; first name; last name.</p>
 
-            Phone contact (FamousParking.com) 
+            <h4>Phone contact (FamousParking.com)</h4>
 
-            Users that provided their phone number might be contacted for commercial or promotional purposes related to FamousParking.com, as well as for fulfilling support requests. 
+            <p>Users that provided their phone number might be contacted for commercial or promotional purposes related to FamousParking.com, as well as for fulfilling support requests.</p>
 
-            Personal Data processed: phone number. 
+            <p>Personal Data processed: phone number.</p>
 
-            F. Displaying content from external platforms 
+            <h3>F. Displaying content from external platforms</h3>
 
-            This type of service allows you to view content hosted on external platforms directly from the pages of FamousParking.com and interact with them. 
-            This type of service might still collect web traffic data for the pages where the service is installed, even when Users do not use it. 
+            <p>This type of service allows you to view content hosted on external platforms directly from the pages of FamousParking.com and interact with them.<br />
+            This type of service might still collect web traffic data for the pages where the service is installed, even when Users do not use it.</p>
 
-            Google Fonts (Google Inc.) 
+            <h4>Google Fonts (Google Inc.)</h4>
 
-            Google Fonts is a typeface visualization service provided by Google LLC or by Google Ireland Limited, depending on how the Owner manages the Data processing, that allows FamousParking.com to incorporate content of this kind on its pages. 
+            <p>Google Fonts is a typeface visualization service provided by Google LLC or by Google Ireland Limited, depending on how the Owner manages the Data processing, that allows FamousParking.com to incorporate content of this kind on its pages.</p>
 
-            Personal Data processed: Usage Data; various types of Data as specified in the privacy policy of the service. 
+            <p>Personal Data processed: Usage Data; various types of Data as specified in the privacy policy of the service.</p>
 
-            Place of processing: US – Privacy Policy. 
+            <p>Place of processing: US – Privacy Policy.</p>
 
-            Mapbox widget (Mapbox Inc.) 
+            <h4>Mapbox widget (Mapbox Inc.)</h4>
 
-            Mapbox is a maps visualization service provided by Mapbox Inc. that allows FamousParking.com to incorporate content of this kind on its pages. 
+            <p>Mapbox is a maps visualization service provided by Mapbox Inc. that allows FamousParking.com to incorporate content of this kind on its pages.</p>
+
+            <p>Personal Data processed: Cookies; Usage Data.</p>
+
+            <p>Place of processing: US – Privacy Policy.</p>
+
+            <h3>G. Handling payments</h3>
+
+            <p>Payment processing services enable FamousParking.com to process payments by credit card, bank transfer or other means. To ensure greater security, FamousParking.com shares only the information necessary to execute the transaction with the financial intermediaries handling the transaction.<br />
+            Some of these services may also enable the sending of timed messages to the User, such as emails containing invoices or notifications concerning the payment.</p>
+
+            <h4>Stripe (Stripe Inc)</h4>
+
+            <p>Stripe is a payment service provided by Stripe Inc. </p>
+
+            <p>Personal Data processed: various types of Data as specified in the privacy policy of the service.</p>
+
+            <p>Place of processing: US – Privacy Policy.</p>
+
+            <h4>Android Pay (Google Inc.)</h4>
+
+            <p>Android Pay is a payment service provided by Google Inc., which allows Users to make payments using their mobile phones.</p>
+
+            <p>Personal Data processed: various types of Data as specified in the privacy policy of the service.</p>
+
+            <p>Place of processing: United States – Privacy Policy.</p>
+
+            <h4>Apple Pay (Apple Inc.)</h4>
+
+            <p>Apple Pay is a payment service provided by Apple Inc., which allows Users to make payments using their mobile phones.</p>
+
+            <p>Personal Data processed: various types of Data as specified in the privacy policy of the service.</p>
+
+            <p>Place of processing: United States – Privacy Policy.</p>
+            
+            <h3>H. Hosting and backend infrastructure</h3>
+
+            <p>This type of service has the purpose of hosting data and files that enable FamousParking.com to run and be distributed as well as to provide a ready-made infrastructure to run specific features or parts of FamousParking.com. Some of these services work through geographically distributed servers, making it difficult to determine the actual location where the Personal Data are stored.</p>
+
+            <h4>Google Cloud Storage (Google Inc.)</h4>
+
+            <p>Google Cloud Storage is a hosting service provided by Google LLC or by Google Ireland Limited, depending on how the Owner manages the Data processing.</p>
+
+            <p>Personal Data processed: various types of Data as specified in the privacy policy of the service.</p>
+
+            <p>Place of processing: US – Privacy Policy.</p>
+
+            <h4>Amazon Web Services (AWS) (Amazon Web Services, Inc.)</h4>
+
+            <p>Amazon Web Services (AWS) is a hosting and backend service provided by Amazon Web Services, Inc.</p>
+
+            <p>Personal Data processed: various types of Data as specified in the privacy policy of the service.</p>
+
+            <p>Place of processing: United States – Privacy Policy.</p>
+
+            <h3>I. Interaction with live chat platforms</h3>
+
+            <p>This type of service allows Users to interact with third-party live chat platforms directly from the pages of FamousParking.com, for contacting and being contacted by FamousParking.com support service. <br />
+            If one of these services is installed, it may collect browsing and Usage Data in the pages where it is installed, even if the Users do not actively use the service. Moreover, live chat conversations may be logged.</p>
+
+            <h4>Tawk.to Widget (tawk.to ltd.)</h4>
+
+            <p>The Tawk.to Widget is a service for interacting with the Tawk.to live chat platform provided by tawk.to ltd.</p>
+
+            <p>Personal Data processed: Cookies; Usage Data.</p>
+
+            <p>Place of processing: United Kingdom – Privacy Policy.</p>
+
+            <h3>J. Location-based interactions</h3> 
+
+            <h4>Geolocation (FamousParking.com)</h4>
+
+            <p>FamousParking.com may collect, use, and share User location Data in order to provide location-based services.<br />
+            Most browsers and devices provide tools to opt out from this feature by default. If explicit authorization has been provided, the User’s location data may be tracked by FamousParking.com.</p>
+
+            <p>Personal Data processed: geographic position.</p>
+
+            <h3>K. Managing contacts and sending messages.</h3>
+
+            <p>This type of service makes it possible to manage a database of email contacts, phone contacts or any other contact information to communicate with the User. 
+            These services may also collect data concerning the date and time when the message was viewed by the User, as well as when the User interacted with it, such as by clicking on links included in the message.</p>
+
+            <h4>Mailchimp (The Rocket Science Group, LLC.)</h4>
+
+            <p>Mailchimp is an email address management and message sending service provided by Intuit Inc.</p>
+
+            <p>Personal Data processed: email address.</p>
+
+            <p>Place of processing: US – Privacy Policy.</p>
+
+            <h4>Twilio (Twilio, Inc.)</h4>
+
+            <p>Twilio is a phone numbers management and communication service provided by Twilio, Inc.</p>
+
+            <p>Personal Data processed: phone number.</p>
+
+            <p>Place of processing: US – Privacy Policy.</p>
+
+            <h4>Sendgrid (Sendgrid)</h4>
+
+            <p>Sendgrid is an email address management and message sending service provided by Sendgrid Inc.</p>
+
+            <p>Personal Data processed: email address.</p>
+
+            <p>Place of processing: United States – Privacy Policy.</p>
+
+            <h3>L. Managing data collection and online surveys</h3>
+
+            <p>This type of service allows FamousParking.com to manage the creation, deployment, administration, distribution and analysis of online forms and surveys in order to collect, save and reuse Data from any responding Users.<br />
+            The Personal Data collected depends on the information asked and provided by the Users in the corresponding online form.</p>
+
+            <p>These services may be integrated with a wide range of third-party services to enable the Owner to take subsequent steps with the Data processed - e.g. managing contacts, sending messages, analytics, advertising and payment processing.</p>
+
+            <h4>SurveyMonkey (SurveyMonkey Inc.)</h4>
+
+            <p>SurveyMonkey is a survey builder and data collection platform provided by SurveyMonkey Inc.</p>
+
+            <p>Personal Data processed: email address.</p>
+
+            <p>Place of processing: United States – Privacy Policy.</p>
+
+            <h3>M. Managing landing and invitation pages</h3>
+
+            <p>This type of service helps with building and managing landing and invitation pages, i.e., pages for presenting a product or service, where you may add your contact information such as an email address.<br />
+            Managing these pages means that these services will handle the Personal Data collected through the pages, including Usage Data.</p>
+
+            <h4>Unbounce (Unbounce Marketing Solutions Inc.)</h4>
+
+            <p>Unbounce is a landing page management service provided by Unbounce Marketing Solutions Inc., that allows FamousParking.com to collect the email addresses of Users interested in its service.<br />
+            Unbounce allows the Owner to track and analyze the User response concerning web traffic or behavior regarding changes to the structure, text or any other component of the created landing pages.</p>
+
+            <p>Personal Data processed: Cookies; email address; Usage Data.</p>
+
+            <p>Place of processing: Canada – Privacy Policy.</p>
+
+            <h3>N. Operations</h3>
+
+            <h4>LPR Policy (License Plate Recognition)</h4>
+
+            <p>At some FamousParking.com Locations, vehicle inventories are conducted using automated license plate recognition technology. This data may be used for all or any of the following purposes:</p>
+            <ol>
+                <li>1. To determine correct parking fees for time-based parking sessions;</li>
+                <li>2. To identify and track abandoned vehicles;</li>
+                <li>3. To automatically activate and/or deactivate parking sessions;</li>
+                <li>4. To verify vehicle counts;</li>
+                <li>5. To collect unpaid parking fees;</li>
+                <li>6. To respond to inquiries of law enforcement agencies.</li>
+            </ol>
+            
+            <p>All access to, and retention of, LPR data shall be managed by the Chief Technology Officer or his designee.</p>
+            <ol>
+                <li>1. FamousParking.com’s Chief Technology Officer or his designee shall be responsible for the monitoring of the LPR system accessed by FamousParking.com to ensure the security of the information and compliance with applicable privacy laws. FamousParking.com’s Chief Technology Officer or his designee shall also be responsible for the correction of data errors of which he becomes aware.</li>
+                <li>2. FamousParking.com’s Chief Technology Officer or his designee shall ensure that only authorized personnel with a legitimate business need shall be granted access to LPR data.</li>
+                <li>3. Authorized personnel include:</li>
+                <ul>
+                    <li>1. Lot Enforcers – When auditing location occupancy, it is necessary for lot enforcers to review and enter license plate information into the LPR system. Lot enforcers must verify all images being recorded are accurate.</li>
+                    <li>2. FamousParking.com Employees – Employees run reports on a regular basis in order to flag unpaid or possibly abandoned vehicles. Employees also use the inventory numbers to determine location occupancy levels. Additionally, Employees are responsible for handling inquiries made by law enforcement agencies.</li>
+                    <li>3. Maintenance Technicians – Camera maintenance technicians provide service and maintenance to the LPR system and have access to all reports within the system.</li>
+                </ul>
+            </ol>
+            <p>The sale and unauthorized dissemination of customer license plate information is prohibited by company policy. Violations will include disciplinary action up to and including termination of employment. The process for sharing or transfer of LPR information shall, at a minimum, include:</p>
+
+            <ol>
+                <li>1. A written request is made for LPR data which includes: the name of the entity requesting information; the name of the person requesting; and the intended purpose of obtaining the information;</li>
+                <li>2. The request is reviewed by The Chief Technology Officer or his designee;</li>
+                <li>3. The approved request is retained on file;</li>
+            </ol>
+            
+            <p>The Chief Technology Officer or his designee is responsible for ensuring all locations are operating the LPR system within the parameters of the law.</p>
+            <p>License plate information collected using the LPR system will remain on file for a period of at least 180 days, it may be automatically purged from the LPR system upon the expiration of this period.</p>
+            <p>LPR system audits shall be conducted on a regular basis.</p>
+            
+            <p>If you have any questions on the LPR policy or would like to request data deletion, contact us at support@famousparking.com</p>
+
+            <h3>O. Registration and authentication</h3>
+
+            <!-- By registering or authenticating, Users allow FamousParking.com to identify them and give them access to dedicated services. 
+            Depending on what is described below, third parties may provide registration and authentication services. In this case, FamousParking.com will be able to access some Data, stored by these third-party services, for registration or identification purposes. 
+
+            Direct registration (FamousParking.com) 
+
+            The User registers by filling out the registration form and providing the Personal Data directly to FamousParking.com. 
+
+            Personal Data processed: address; date of birth; email address; first name; last name; password; phone number. 
+
+            P. Tag Management 
+
+            This type of service helps the Owner to manage the tags or scripts needed on FamousParking.com in a centralized fashion. 
+            This results in the Users' Data flowing through these services, potentially resulting in the retention of this Data. 
+
+            Segment (Segment Inc.) 
+
+            Segment is a tag management service provided by Segment.io, Inc. 
 
             Personal Data processed: Cookies; Usage Data. 
 
-            Place of processing: US – Privacy Policy. 
-
-            G. Handling payments
-
-            Payment processing services enable FamousParking.com to process payments by credit card, bank transfer or other means. To ensure greater security, FamousParking.com shares only the information necessary to execute the transaction with the financial intermediaries handling the transaction. 
-            Some of these services may also enable the sending of timed messages to the User, such as emails containing invoices or notifications concerning the payment. 
-
-            Stripe (Stripe Inc) 
-
-            Stripe is a payment service provided by Stripe Inc. 
-
-            Personal Data processed: various types of Data as specified in the privacy policy of the service. 
-
-            Place of processing: US – Privacy Policy. 
-
-            Android Pay (Google Inc.) 
-
-            Android Pay is a payment service provided by Google Inc., which allows Users to make payments using their mobile phones. 
-
-            Personal Data processed: various types of Data as specified in the privacy policy of the service. 
-
             Place of processing: United States – Privacy Policy. 
 
-            Apple Pay (Apple Inc.) 
+            Q. Traffic optimization and distribution 
 
-            Apple Pay is a payment service provided by Apple Inc., which allows Users to make payments using their mobile phones. 
+            This type of service allows FamousParking.com to distribute their content using servers located across different countries and to optimize their performance. 
+            Which Personal Data are processed depends on the characteristics and the way these services are implemented. Their function is to filter communications between FamousParking.com and the User's browser. 
+            Considering the widespread distribution of this system, it is difficult to determine the locations to which the contents that may contain Personal Information of the User are transferred. 
 
-            Personal Data processed: various types of Data as specified in the privacy policy of the service. 
+            Cloudflare (Cloudflare Inc.) 
 
-            Place of processing: United States – Privacy Policy. 
+            Cloudflare is a traffic optimization and distribution service provided by Cloudflare Inc. 
+            The way Cloudflare is integrated means that it filters all the traffic through FamousParking.com, i.e., communication between FamousParking.com and the User's browser, while also allowing analytical data from FamousParking.com to be collected. 
 
-            H. Hosting and backend infrastructure 
+            Personal Data processed: Cookies; various types of Data as specified in the privacy policy of the service. 
 
-            This type of service has the purpose of hosting data and files that enable FamousParking.com to run and be distributed as well as to provide a ready-made infrastructure to run specific features or parts of FamousParking.com. Some of these services work through geographically distributed servers, making it difficult to determine the actual location where the Personal Data are stored. 
+            Place of processing: United States – Privacy Policy.
 
-            Google Cloud Storage (Google Inc.) 
-
-            Google Cloud Storage is a hosting service provided by Google LLC or by Google Ireland Limited, depending on how the Owner manages the Data processing. 
-
-            Personal Data processed: various types of Data as specified in the privacy policy of the service. 
-
-            Place of processing: US – Privacy Policy. 
-
-            Amazon Web Services (AWS) (Amazon Web Services, Inc.) 
-
-            Amazon Web Services (AWS) is a hosting and backend service provided by Amazon Web Services, Inc. 
-
-            Personal Data processed: various types of Data as specified in the privacy policy of the service. 
-
-            Place of processing: United States – Privacy Policy. 
-
-I. Interaction with live chat platforms 
-
-This type of service allows Users to interact with third-party live chat platforms directly from the pages of FamousParking.com, for contacting and being contacted by FamousParking.com support service. 
-If one of these services is installed, it may collect browsing and Usage Data in the pages where it is installed, even if the Users do not actively use the service. Moreover, live chat conversations may be logged. 
-
-Tawk.to Widget (tawk.to ltd.) 
-
-The Tawk.to Widget is a service for interacting with the Tawk.to live chat platform provided by tawk.to ltd. 
-
-Personal Data processed: Cookies; Usage Data. 
-
-Place of processing: United Kingdom – Privacy Policy.
-
-J. Location-based interactions 
-
-Geolocation (FamousParking.com) 
-
-FamousParking.com may collect, use, and share User location Data in order to provide location-based services. 
-Most browsers and devices provide tools to opt out from this feature by default. If explicit authorization has been provided, the User’s location data may be tracked by FamousParking.com. 
-
-Personal Data processed: geographic position.
-
-K. Managing contacts and sending messages 
-
-This type of service makes it possible to manage a database of email contacts, phone contacts or any other contact information to communicate with the User. 
-These services may also collect data concerning the date and time when the message was viewed by the User, as well as when the User interacted with it, such as by clicking on links included in the message. 
-
-Mailchimp (The Rocket Science Group, LLC.) 
-
-Mailchimp is an email address management and message sending service provided by Intuit Inc. 
-
-Personal Data processed: email address. 
-
-Place of processing: US – Privacy Policy. 
-
-Twilio (Twilio, Inc.) 
-
-Twilio is a phone numbers management and communication service provided by Twilio, Inc. 
-
-Personal Data processed: phone number. 
-
-Place of processing: US – Privacy Policy. 
-
-Sendgrid (Sendgrid) 
-
-Sendgrid is an email address management and message sending service provided by Sendgrid Inc. 
-
-Personal Data processed: email address. 
-
-Place of processing: United States – Privacy Policy. 
-
-L. Managing data collection and online surveys
-
-This type of service allows FamousParking.com to manage the creation, deployment, administration, distribution and analysis of online forms and surveys in order to collect, save and reuse Data from any responding Users. 
-The Personal Data collected depends on the information asked and provided by the Users in the corresponding online form. 
-
-These services may be integrated with a wide range of third-party services to enable the Owner to take subsequent steps with the Data processed - e.g. managing contacts, sending messages, analytics, advertising and payment processing. 
-
-SurveyMonkey (SurveyMonkey Inc.) 
-
-SurveyMonkey is a survey builder and data collection platform provided by SurveyMonkey Inc. 
-
-Personal Data processed: email address. 
-
-Place of processing: United States – Privacy Policy. 
-
-M. Managing landing and invitation pages 
-
-This type of service helps with building and managing landing and invitation pages, i.e., pages for presenting a product or service, where you may add your contact information such as an email address. 
-Managing these pages means that these services will handle the Personal Data collected through the pages, including Usage Data. 
-
-Unbounce (Unbounce Marketing Solutions Inc.) 
-
-Unbounce is a landing page management service provided by Unbounce Marketing Solutions Inc., that allows FamousParking.com to collect the email addresses of Users interested in its service. 
-Unbounce allows the Owner to track and analyze the User response concerning web traffic or behavior regarding changes to the structure, text or any other component of the created landing pages. 
-
-Personal Data processed: Cookies; email address; Usage Data. 
-
-Place of processing: Canada – Privacy Policy. 
-
-N. Operations 
-
-LPR Policy (License Plate Recognition) 
-
-At some FamousParking.com Locations, vehicle inventories are conducted using automated license plate recognition technology. This data may be used for all or any of the following purposes: 
- 
-1. To determine correct parking fees for time-based parking sessions; 
-2. To identify and track abandoned vehicles; 
-3. To automatically activate and/or deactivate parking sessions; 
-4. To verify vehicle counts; 
-5. To collect unpaid parking fees; 
-6. To respond to inquiries of law enforcement agencies. 
- 
-All access to, and retention of, LPR data shall be managed by the Chief Technology Officer or his designee. 
- 
-1. FamousParking.com’s Chief Technology Officer or his designee shall be responsible for the monitoring of the LPR system accessed by FamousParking.com to ensure the security of the information and compliance with applicable privacy laws. FamousParking.com’s Chief Technology Officer or his designee shall also be responsible for the correction of data errors of which he becomes aware. 
-2. FamousParking.com’s Chief Technology Officer or his designee shall ensure that only authorized personnel with a legitimate business need shall be granted access to LPR data. 
-3. Authorized personnel include: 
-1. Lot Enforcers – When auditing location occupancy, it is necessary for lot enforcers to review and enter license plate information into the LPR system. Lot enforcers must verify all images being recorded are accurate. 
-2. FamousParking.com Employees – Employees run reports on a regular basis in order to flag unpaid or possibly abandoned vehicles. Employees also use the inventory numbers to determine location occupancy levels. Additionally, Employees are responsible for handling inquiries made by law enforcement agencies. 
-3. Maintenance Technicians – Camera maintenance technicians provide service and maintenance to the LPR system and have access to all reports within the system. 
- 
-The sale and unauthorized dissemination of customer license plate information is prohibited by company policy. Violations will include disciplinary action up to and including termination of employment. The process for sharing or transfer of LPR information shall, at a minimum, include: 
- 
-1. A written request is made for LPR data which includes: the name of the entity requesting information; the name of the person requesting; and the intended purpose of obtaining the information; 
-2. The request is reviewed by The Chief Technology Officer or his designee; 
-3. The approved request is retained on file; 
- 
-The Chief Technology Officer or his designee is responsible for ensuring all locations are operating the LPR system within the parameters of the law. 
- 
-License plate information collected using the LPR system will remain on file for a period of at least 180 days, it may be automatically purged from the LPR system upon the expiration of this period. 
- 
-LPR system audits shall be conducted on a regular basis. 
- 
-Contact 
- 
-If you have any questions on the LPR policy or would like to request data deletion, contact us at support@famousparking.com 
-
-O. Registration and authentication 
-
-By registering or authenticating, Users allow FamousParking.com to identify them and give them access to dedicated services. 
-Depending on what is described below, third parties may provide registration and authentication services. In this case, FamousParking.com will be able to access some Data, stored by these third-party services, for registration or identification purposes. 
-
-Direct registration (FamousParking.com) 
-
-The User registers by filling out the registration form and providing the Personal Data directly to FamousParking.com. 
-
-Personal Data processed: address; date of birth; email address; first name; last name; password; phone number. 
-
-P. Tag Management 
-
-This type of service helps the Owner to manage the tags or scripts needed on FamousParking.com in a centralized fashion. 
-This results in the Users' Data flowing through these services, potentially resulting in the retention of this Data. 
-
-Segment (Segment Inc.) 
-
-Segment is a tag management service provided by Segment.io, Inc. 
-
-Personal Data processed: Cookies; Usage Data. 
-
-Place of processing: United States – Privacy Policy. 
-
-Q. Traffic optimization and distribution 
-
-This type of service allows FamousParking.com to distribute their content using servers located across different countries and to optimize their performance. 
-Which Personal Data are processed depends on the characteristics and the way these services are implemented. Their function is to filter communications between FamousParking.com and the User's browser. 
-Considering the widespread distribution of this system, it is difficult to determine the locations to which the contents that may contain Personal Information of the User are transferred. 
-
-Cloudflare (Cloudflare Inc.) 
-
-Cloudflare is a traffic optimization and distribution service provided by Cloudflare Inc. 
-The way Cloudflare is integrated means that it filters all the traffic through FamousParking.com, i.e., communication between FamousParking.com and the User's browser, while also allowing analytical data from FamousParking.com to be collected. 
-
-Personal Data processed: Cookies; various types of Data as specified in the privacy policy of the service. 
-
-Place of processing: United States – Privacy Policy.
-
-R. User database management
+            R. User database management
 
 his type of service allows the Owner to build user profiles by starting from an email address, a personal name, or other information that the User provides to FamousParking.com, as well as to track User activities through analytics features. This Personal Data may also be matched with publicly available information about the User (such as social networks' profiles) and used to build private profiles that the Owner can display and use for improving FamousParking.com. 
 Some of these services may also enable the sending of timed messages to the User, such as emails based on specific actions performed on FamousParking.com. 

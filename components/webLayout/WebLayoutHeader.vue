@@ -49,10 +49,10 @@ closeDropdown()
 
 <template>
   <header class="bg-[#E0F2F148] rounded mx-6 lg-mx-16 mt-4 text-white">
-    <div class="w-site px4 flex items-center justify-between h14 lg-h18 relative">
+    <div class="lt-2xl:w-site px4 2xl:px10 flex items-center justify-between h14 lg-h18 relative">
       <div class=" relative">
         <NuxtLink to="/">
-          <NuxtImg src="/images/Logo.svg" class="w18 lg-w22 hauto" />
+          <NuxtImg src="/images/Logo.svg" class="w18 lg-w22 2xl-w-30 hauto" />
         </NuxtLink>
       </div>
       <nav class="">
