@@ -34,9 +34,9 @@ const footerLinks = [
   {
     title: 'Contact',
     links: [
-      { head: 'hello@famousparking.com', to: '/' },
-      { head: 'support@famousparking.com', to: '/' },
-      { head: '+1 (123) 456-7890', to: '/' }
+      { head: 'hello@famousparking.com', to: 'mailto:' },
+      { head: 'support@famousparking.com', to: 'mailto:' },
+      { head: '+1 (123) 456-7890', to: 'tel:' }
     ],
   },
   {
@@ -72,9 +72,12 @@ const year = new Date().getFullYear()
           <h4 class="mb6 relative text-e-primary lg:text-4.25 fw500 before:(content-[''] absolute left-0 -bottom-2.5 h0.5 bg-e-primary w10 rounded-full)">
             {{ item.title }}
           </h4>
-          <NuxtLink v-for="list of item.links" :key="list.head" :to="list.to" class="text-3 lg:text-3.75 mb1.5 fw300 block hover:text-e-primary duration-400">
+          <NuxtLink v-if="item.title !== 'Contact'" v-for="list of item.links" :key="list.head" :to="list.to" class="text-3 lg:text-3.75 mb1.5 fw300 block hover:text-e-primary duration-400">
             {{ list.head }}
           </NuxtLink>
+          <a v-else v-for="list of item.links" :key="list.to" :href="`${list.to}${list.head}`" class="text-3 lg:text-3.75 mb1.5 fw300 block hover:text-e-primary duration-400">
+            {{list.head}}
+          </a>
         </div>
       </div>
       <div class="">

@@ -1,11 +1,17 @@
 <script setup lang="ts">
 </script>
 <template>
-    <div class="w-site">
-        <div>
-            <h1>Privacy Policy</h1>
-            <p>FamousParking.com collects some Personal Data from its Users.</p>
+    <div class="hero relative wfull h60dvh bg-e-primary -mt20 lg:-mt24 text-[#424242]">
+        <div class="hero-text text-white absolute bottom-10 w-site right-1/2 left-1/2 -translate-x-1/2 z-200">
+            <h1 class="font-800 text-9 2md:text-12 lg-text-16 text-center">Privacy Policy</h1>
         </div>
+        <!-- <div class="overlay absolute top-0 hfull wfull bg-[#000000] opacity-40"></div> -->
+    </div>
+    <div class="w-content py10 lg:py20 text-[#424242]">
+        <!-- <div class="mb4">
+            <h1 class="text-center fw800 text-9 2md:text-12 mb8">Privacy Policy</h1>
+            <p>FamousParking.com collects some Personal Data from its Users.</p>
+        </div> -->
 
         <div>
             <h2>Types of Data collected</h2>
@@ -302,31 +308,31 @@
 
             <p>At some FamousParking.com Locations, vehicle inventories are conducted using automated license plate recognition technology. This data may be used for all or any of the following purposes:</p>
             <ol>
-                <li>1. To determine correct parking fees for time-based parking sessions;</li>
-                <li>2. To identify and track abandoned vehicles;</li>
-                <li>3. To automatically activate and/or deactivate parking sessions;</li>
-                <li>4. To verify vehicle counts;</li>
-                <li>5. To collect unpaid parking fees;</li>
-                <li>6. To respond to inquiries of law enforcement agencies.</li>
+                <li>To determine correct parking fees for time-based parking sessions;</li>
+                <li>To identify and track abandoned vehicles;</li>
+                <li>To automatically activate and/or deactivate parking sessions;</li>
+                <li>To verify vehicle counts;</li>
+                <li>To collect unpaid parking fees;</li>
+                <li>To respond to inquiries of law enforcement agencies.</li>
             </ol>
             
             <p>All access to, and retention of, LPR data shall be managed by the Chief Technology Officer or his designee.</p>
             <ol>
-                <li>1. FamousParking.com’s Chief Technology Officer or his designee shall be responsible for the monitoring of the LPR system accessed by FamousParking.com to ensure the security of the information and compliance with applicable privacy laws. FamousParking.com’s Chief Technology Officer or his designee shall also be responsible for the correction of data errors of which he becomes aware.</li>
-                <li>2. FamousParking.com’s Chief Technology Officer or his designee shall ensure that only authorized personnel with a legitimate business need shall be granted access to LPR data.</li>
-                <li>3. Authorized personnel include:</li>
+                <li>FamousParking.com’s Chief Technology Officer or his designee shall be responsible for the monitoring of the LPR system accessed by FamousParking.com to ensure the security of the information and compliance with applicable privacy laws. FamousParking.com’s Chief Technology Officer or his designee shall also be responsible for the correction of data errors of which he becomes aware.</li>
+                <li>FamousParking.com’s Chief Technology Officer or his designee shall ensure that only authorized personnel with a legitimate business need shall be granted access to LPR data.</li>
+                <li>Authorized personnel include:</li>
                 <ul>
-                    <li>1. Lot Enforcers – When auditing location occupancy, it is necessary for lot enforcers to review and enter license plate information into the LPR system. Lot enforcers must verify all images being recorded are accurate.</li>
-                    <li>2. FamousParking.com Employees – Employees run reports on a regular basis in order to flag unpaid or possibly abandoned vehicles. Employees also use the inventory numbers to determine location occupancy levels. Additionally, Employees are responsible for handling inquiries made by law enforcement agencies.</li>
-                    <li>3. Maintenance Technicians – Camera maintenance technicians provide service and maintenance to the LPR system and have access to all reports within the system.</li>
+                    <li>Lot Enforcers – When auditing location occupancy, it is necessary for lot enforcers to review and enter license plate information into the LPR system. Lot enforcers must verify all images being recorded are accurate.</li>
+                    <li>FamousParking.com Employees – Employees run reports on a regular basis in order to flag unpaid or possibly abandoned vehicles. Employees also use the inventory numbers to determine location occupancy levels. Additionally, Employees are responsible for handling inquiries made by law enforcement agencies.</li>
+                    <li>Maintenance Technicians – Camera maintenance technicians provide service and maintenance to the LPR system and have access to all reports within the system.</li>
                 </ul>
             </ol>
             <p>The sale and unauthorized dissemination of customer license plate information is prohibited by company policy. Violations will include disciplinary action up to and including termination of employment. The process for sharing or transfer of LPR information shall, at a minimum, include:</p>
 
             <ol>
-                <li>1. A written request is made for LPR data which includes: the name of the entity requesting information; the name of the person requesting; and the intended purpose of obtaining the information;</li>
-                <li>2. The request is reviewed by The Chief Technology Officer or his designee;</li>
-                <li>3. The approved request is retained on file;</li>
+                <li>A written request is made for LPR data which includes: the name of the entity requesting information; the name of the person requesting; and the intended purpose of obtaining the information;</li>
+                <li>The request is reviewed by The Chief Technology Officer or his designee;</li>
+                <li>The approved request is retained on file;</li>
             </ol>
             
             <p>The Chief Technology Officer or his designee is responsible for ensuring all locations are operating the LPR system within the parameters of the law.</p>
@@ -548,3 +554,51 @@
         </div>
     </div>
 </template>
+
+<style scoped>
+h2{
+    --uno: text-6 lg:text-7 fw600 my5
+}
+
+h3{
+    --uno: text-5 lg:text-6 fw600 my4
+}
+
+h4{
+    --uno: text-4.5 fw600 my3
+}
+
+p{
+    --uno: my4 text-justify 
+}
+
+a{
+    --uno: text-e-primary text-underline
+}
+
+li>span{
+    --uno:fw600
+}
+
+ol {
+    list-style-type: decimal; /* Ensures numbering */
+    margin: 0;                /* Resets default margin */
+    padding-left: 15px;       /* Provides space for numbers */
+    counter-reset: section;   /* Optional: if you are using counters */
+}
+
+ol li {
+    margin-bottom: 5px;       /* Space between list items */
+    counter-increment: section; /* Optional: if you are using counters */
+}
+
+ul {
+    list-style-type: disc; /* Ensures bullet points */
+    margin: 0;             /* Resets default margin */
+    padding-left: 15px;    /* Provides space for bullets */
+}
+
+ul li {
+    margin-bottom: 5px;    /* Space between list items */
+}
+</style>
