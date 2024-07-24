@@ -52,7 +52,7 @@ closeDropdown()
     <div class="lt-2xl:w-site px4 2xl:px10 flex items-center justify-between h14 lg-h18 relative">
       <div class=" relative">
         <NuxtLink to="/">
-          <NuxtImg src="/images/Logo.svg" class="w18 lg-w22 2xl-w-30 hauto" />
+          <NuxtImg src="/images/Logo.svg" class="w18 lg-w22 2xl-w-28 hauto" />
         </NuxtLink>
       </div>
       <nav class="">
