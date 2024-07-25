@@ -9,5 +9,14 @@ export default defineNuxtConfig({
     "@nuxt/icon"
   ],
 
+
+plugins: [
+  { src: "@/plugins/aos", mode: "client" },
+],
+
+// purgeCSS: {
+//   whitelist: ["aos-init", "aos-animate", "data-aos-delay", "data-aos-duration", "fade-up", "zoom-in"],
+// },
+
   compatibilityDate: '2024-07-16'
 })

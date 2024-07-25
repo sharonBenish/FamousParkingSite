@@ -21,11 +21,11 @@ function goToContact() {
 </script>
 
 <template>
-    <div class="hero relative wfull h60dvh xl:h70dvh bg-[url('/images/hero-overlay.jpg')] bg-cover bg-no-repeat -mt20 lg:-mt24">
+    <div class="hero relative wfull h60dvh xl:h70dvh bg-[url('/images/services-hero.jpg')] bg-cover bg-center bg-no-repeat -mt20 lg:-mt24">
         <div class="hero-text text-white absolute bottom-10 w-site right-1/2 left-1/2 -translate-x-1/2 z-200">
             <h1 class="font-800 text-9 2md:text-12 lg-text-16 lg-w180">Our Services</h1>
         </div>
-        <div class="overlay absolute top-0 hfull wfull bg-[#000000] opacity-40"></div>
+        <div class="overlay absolute top-0 hfull wfull bg-[#000000] opacity-50"></div>
     </div>
 
     <div class="py15 lg:py30 my15 lg:bg-svgs-special">
@@ -35,7 +35,7 @@ function goToContact() {
                     <h2 class="text-[#424242] fw800 text-5 lg:text-7.5 mb5">Dynamic Pricing</h2>
                     <p class="text-3.5">We use proprietary KPIs to monitor past pricing success and future profit potential at both facility and neighborhood levels. By considering factors like date/time, nearby events, and competitor pricing, we maximize revenue during peak times and boost occupancy during off-peak hours. This adaptive strategy guarantees that you consistently offer competitive prices, attracting more customers and optimizing your earnings. While competitors rely on algorithms and AI tools far less sophisticated than the human brain, we use these tools as an optimization layer for our employees, not as our primary pricing strategy. Your bottom line will thank us.</p>
                 </div>
-                <NuxtImg class="lg:w-1/2" src="/images/Pricing.jpg"/>
+                <NuxtImg class="lg:w-1/2 2md:min-h-80 rounded-4 object-cover" src="/images/Pricing.jpg"/>
             </div>
             <div class="bg-e-primary h0.25 wfull lg:w-[30%] mx-auto my10 lg:my18"></div>
             <div class="flex flex-col lg:flex-row gap10 lg:gap20 text-[#757575]">
@@ -43,7 +43,7 @@ function goToContact() {
                     <h2 class="text-[#424242] fw800 text-5 lg:text-7.5 mb5">Track every vehicle with license plate recognition</h2>
                     <p class="text-3.5">Our advanced LPR system ensures seamless entry and exit monitoring, enhancing security and compliance. This technology provides real-time data collection, speeding up the parking process and improving management. Our LPR cameras accurately track vehicles, enabling efficient enforcement of parking rules and immediate identification of non-compliant vehicles.</p>
                 </div>
-                <NuxtImg class="lg:w-1/2" src="/images/track.jpg"/>
+                <NuxtImg class="lg:w-1/2 2md:min-h-80 rounded-4 object-cover" src="/images/lpr.png"/>
             </div>
             <div class="bg-e-primary h0.25 wfull lg:w-[30%] mx-auto my10 lg:my18"></div>
             <div class="flex-col flex lg:flex-row-reverse gap10 lg:gap20 text-[#757575]">
@@ -51,7 +51,7 @@ function goToContact() {
                     <h2 class="text-[#424242] fw800 text-5 lg:text-7.5 mb5">Marketing</h2>
                     <p class="text-3.5">Better online presence boosts revenue. Everyone lists online, but knowing how to use the tools to improve visibility is crucial for the profitability of your parking asset. We ensure that your properties are easily found by drivers in your area while optimizing rates and availability across various booking platforms. </p>
                 </div>
-                <NuxtImg class="lg:w-1/2" src="/images/marketing.jpg"/>
+                <NuxtImg class="lg:w-1/2 2md:min-h-80 rounded-4 object-cover" src="/images/marketing.jpg"/>
             </div>
             <div class="bg-e-primary h0.25 wfull lg:w-[30%] mx-auto my10 lg:my18"></div>
             <div class="flex flex-col lg:flex-row gap10 lg:gap20 text-[#757575]">
@@ -59,7 +59,7 @@ function goToContact() {
                     <h2 class="text-[#424242] fw800 text-5 lg:text-7.5 mb5">Data Informs Decisions</h2>
                     <p class="text-3.5">Our team of pricing experts constantly monitor usage trends, occupancy rates, and revenue streams to inform pricing decisions. Artificial Intelligence and algorithms require humans to guide them. With offshore hiring, we put more human eyes on the computers.</p>
                 </div>
-                <NuxtImg class="lg:w-1/2" src="/images/data.jpg"/>
+                <NuxtImg class="lg:w-1/2 2md:min-h-80 rounded-4 object-cover" src="/images/data.jpg"/>
             </div>
             <div class="bg-e-primary h0.25 wfull lg:w-[30%] mx-auto my10 lg:my18"></div>
             <div class="flex flex-col lg:flex-row-reverse gap10 lg:gap20 text-[#757575]">
@@ -67,7 +67,7 @@ function goToContact() {
                     <h2 class="text-[#424242] fw800 text-5 lg:text-7.5 mb5">Enforcement</h2>
                     <p class="text-3.5">Drivers are automatically charged when they enter or exit a facility and receive a text message notification, making parking easy and hassle-free. Turn a standard parking experience into an exceptional one with our focus on convenience and efficiency, ensuring your guests are satisfied every time they visit. Instant enforcement generates revenue and reduces 'lot full' complaints. Fewer moving parts mean less maintenance. </p>
                 </div>
-                <NuxtImg class="lg:w-1/2" src="/images/enforcement.jpg"/>
+                <NuxtImg class="lg:w-1/2 2md:min-h-80 rounded-4 object-cover" src="/images/enforcement.jpg"/>
             </div>
             <div class="bg-e-primary h0.25 wfull lg:w-[30%] mx-auto my10 lg:my18"></div>
             <div class="flex flex-col lg:flex-row gap10 lg:gap20 text-[#757575]">
@@ -75,7 +75,7 @@ function goToContact() {
                     <h2 class="text-[#424242] fw800 text-5 lg:text-7.5 mb5">Monthly Reporting for Owners</h2>
                     <p class="text-3.5">Our monthly report offers clarity and transparency, highlighting revenue drivers, customer discovery sources, and parking behavior at your location. This helps ensure your parking operations align with your broader business goals. </p>
                 </div>
-                <NuxtImg class="lg:w-1/2" src="/images/reporting.jpg"/>
+                <NuxtImg class="lg:w-1/2 2md:min-h-80 rounded-4 object-cover" src="/images/reporting.jpg"/>
             </div>
         </div>
     </div>

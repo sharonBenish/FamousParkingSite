@@ -60,7 +60,7 @@ async function submitForm() {
     <!--HERO SECTION-->
     <div class="hero relative wfull h100dvh md:h85dvh 3xl:h70dvh bg-[url('/images/Hero-img.svg')] bg-center bg-cover -mt20 lg:-mt22">
         <div class="hero-text text-white absolute bottom-20 lt-2xl:w-site w-[80%] right-1/2 left-1/2 -translate-x-1/2 z-200">
-            <h1 class="font-800 text-10 2md:text-12 xl-text-18 lg:w250">Get Famous. Make Money.</h1>
+            <h1 class="font-800 text-10 2md:text-12 xl-text-18 lg:w250" data-aos="fade-down" data-aos-delay="500" data-aos-easing="linear">Get Famous. Make Money.</h1>
             <div class="lg-flex lg-flex-row justify-between items-end">
                 <p class="font-600 xl:text-5 lg:w150 2xl:180">We handle parking management needs so you can focus on what matters. Start today!</p>
                 <button class="flex items-center gap1 lg-gap2 bg-e-primary mt4 lg-mt0 px-4 xl-px6 py-3 xl-py4 text-4 rounded-3 font-600" @click="goToContact()">
@@ -108,17 +108,17 @@ async function submitForm() {
     <!--STATISTICS-->
     <div class="bg-e-primary/15 pt10 pb15 lg-pt20 lg-pb40 mb50 xs:mb60 2xs:mb80 sm:mb70 2sm:mb80 md:mb90 2md:mb120 md:px10 lg:mb150 sm:px10 ">
         <div class="w-content relative">
-            <div class="flex justify-between lt-2md:max-w-[500px] mx-auto">
+            <div class="flex justify-between lt-2md:max-w-[500px] max-w-[800px] mx-auto">
                 <div class="text-center">
-                    <h3 class="text-5 lg-text-8 xl-text-10 text-[#424242] font700">Over 70</h3>
+                    <h3 class="text-5 lg-text-8 xl-text-10 text-[#424242] font700" data-aos="fade-down" data-aos-easing="linear">70+</h3>
                     <p class="text-3 xl-text-4 text-e-primary font600">Parking Locations</p>
                 </div>
                 <div class="text-center">
-                    <h3 class="text-5 lg-text-8 xl-text-10 text-[#424242] font700">2,000+</h3>
+                    <h3 class="text-5 lg-text-8 xl-text-10 text-[#424242] font700" data-aos="fade-down" data-aos-easing="linear">2,000+</h3>
                     <p class="text-3 xl-text-4 text-e-primary font600">Customers</p>
                 </div>
                 <div class="text-center">
-                    <h3 class="text-5 lg-text-8 xl-text-10 text-[#424242] font700">Over 40</h3>
+                    <h3 class="text-5 lg-text-8 xl-text-10 text-[#424242] font700" data-aos="fade-down" data-aos-easing="linear">40+</h3>
                     <p class="text-3 xl-text-4 text-e-primary font600">Clients</p>
                 </div>
             </div>
