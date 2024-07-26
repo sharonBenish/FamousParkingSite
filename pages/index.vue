@@ -93,7 +93,7 @@ async function submitForm() {
                 <!--Operations-->
                 <div class="w-1/3 lt-lg:flex-1 lg-w-2/5 z-10 -mx-10 lt-lg:-mt-12 lg:-mx-12 lg:-my-16 relative">
                     <div class="h1 lg-h2 w-10 lg-w20 rounded mb2 lg-mb4 bg-e-primary mx-auto"></div>
-                    <NuxtImg class="wfull" src="/images/Operations.svg"/>
+                    <NuxtImg data-aos="zoom-in-up" class="wfull" src="/images/Operations.svg"/>
                     <div class="absolute bottom-8 lg-bottom-11 xl-bottom-10 w-full py-0.5 lg-py2 bg-e-primary/50 text-3 lg-text-4 text-white text-center font-500 rounded-b-2 lg-rounded-b-5">Operations</div>
                 </div>
                 <!--Customer Service-->
@@ -110,7 +110,7 @@ async function submitForm() {
         <div class="w-content relative">
             <div class="flex justify-between lt-2md:max-w-[500px] max-w-[800px] mx-auto">
                 <div class="text-center">
-                    <h3 class="text-5 lg-text-8 xl-text-10 text-[#424242] font700" data-aos="fade-down" data-aos-easing="linear" data-aos-offset="500" data-aos-duration="500">70+</h3>
+                    <h3 class="text-5 lg-text-8 xl-text-10 text-[#424242] font700" data-aos="fade-down" data-aos-easing="linear">70+</h3>
                     <p class="text-3 xl-text-4 text-e-primary font600">Parking Locations</p>
                 </div>
                 <div class="text-center">
@@ -123,7 +123,7 @@ async function submitForm() {
                 </div>
             </div>
             <div class="absolute left-0 right-0 -mt6 sm:-mt9 2sm:-mt10 2md:-mt12 lg:-mt15 xl:-mt12 w-full">
-                <NuxtImg class="w-full" src="images/ChartSection.svg"/>
+                <NuxtImg class="w-full" data-aos="zoom-in" src="images/ChartSection.svg"/>
             </div>
         </div>
     </div>

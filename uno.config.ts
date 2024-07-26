@@ -31,8 +31,7 @@ export default defineConfig({
     ['nav-active', ''],
     ['2-grid', 'grid grid-cols-1 md:grid-cols-1 lg:grid-cols-2 xl:grid-cols-2 lt-sm:gap-y-6 gap-2'],
     ['3-grid', 'grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-3 lt-sm:gap-y-6 gap-6'],
-    ['4-grid', 'grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6'],
-    // ['4-grid', 'grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap6'],
+    ['4-grid', 'grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6']
   ],
 
   rules: [
@@ -118,26 +117,6 @@ export default defineConfig({
             provider: 'none',
           },
         ],
-        // garamond: [
-        //   {
-        //     name: 'Cormorant Garamond',
-        //     weights: ['300', '400', '500', '600', '700'],
-        //   },
-        //   {
-        //     name: 'serif',
-        //     provider: 'none',
-        //   },
-        // ],
-        // playfair: [
-        //   {
-        //     name: 'Playfair Display',
-        //     weights: ['400', '500', '600', '700'],
-        //   },
-        //   {
-        //     name: 'serif',
-        //     provider: 'none',
-        //   },
-        // ],
       },
     }),
   ],
