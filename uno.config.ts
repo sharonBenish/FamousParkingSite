@@ -46,7 +46,9 @@ export default defineConfig({
     }],
     ['bg-size', {'background-size': '750px', 'background-position': 'right 30px'}],
     ['bg-lg-size', {'background-size': '600px', 'background-position': 'left, 10%'}],
-    ['bg-sm-size', {'background-size': '400px', 'background-position': '-20px bottom'}]
+    ['bg-sm-size', {'background-size': '400px', 'background-position': '-20px bottom'}],
+    ['big-110', { transform: 'scale(1.20)', 'z-index' : '200'}],
+    ['transition-transform', { transition: 'transform 0.3s ease-in-out' }]
   ],
 
   theme: {

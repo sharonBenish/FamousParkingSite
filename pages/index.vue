@@ -60,7 +60,7 @@ async function submitForm() {
     <!--HERO SECTION-->
     <div class="hero relative wfull h100dvh md:h85dvh 3xl:h70dvh bg-[url('/images/Hero-img.svg')] bg-center bg-cover -mt20 lg:-mt22">
         <div class="hero-text text-white absolute bottom-20 lg:bottom-25 lt-2xl:w-site 2xl:w-[80%] right-1/2 left-1/2 -translate-x-1/2 z-200">
-            <h1 class="font-800 text-10 2md:text-12 lg:text-18 xl-text-20 lg:w250 mb6 lg:mb10" data-aos="fade-right" data-aos-delay="200" data-aos-easing="linear">Get Famous. Make Money.</h1>
+            <h1 class="font-800 text-10 2md:text-12 lg:text-18 xl-text-20 lg:w250 xl:280 mb6 lg:mb10" data-aos="fade-right" data-aos-delay="200" data-aos-easing="linear">Get Famous. Make Money.</h1>
             <div class="lg-flex lg-flex-row justify-between items-end">
                 <p data-aos="fade-right" data-aos-delay="400" data-aos-easing="linear" class="font-600 xl:text-5 md:w150 2xl:180">We handle parking management needs so you can focus on what matters. Start today!</p>
                 <button class="flex btn items-center gap1 lg-gap2 bg-e-primary mt4 lg-mt0 px-4 xl-px6 py-3 xl-py4 text-4 rounded-3 font-600" @click="goToContact()">
@@ -84,20 +84,20 @@ async function submitForm() {
                 </span>
             </h2>
             <p class="text-4">At FamousParking we put the pieces together to ensure your parking asset receives industry leading attention to detail in pricing, customer service and operations. Our approach not only boosts your earnings but also aligns seamlessly with your broader business objectives.</p>
-            <div class="flex justify-evenly lg-justify-center wfull relative my-20 lg-my40">
+            <div class="flex justify-evenly lg-justify-center wfull relative my-20 lg-my40 image-container">
                 <!--Detail In Pricing-->
-                <div class="w-1/3 h-auto relative lt-lg:flex-1">
+                <div class="w-1/3 h-auto relative lt-lg:flex-1 hover:big-110 hover:transition-transform">
                     <NuxtImg class="wfull object-cover" src="/images/Pricing.svg"/>
                     <div class="absolute bottom-0 w-full py-0.5 lg-py2 bg-e-primary/50 text-3 lg-text-4 text-white text-center font-500 rounded-b-2 lg-rounded-b-5 ">Detail In Pricing</div>
                 </div>
                 <!--Operations-->
-                <div class="w-1/3 lt-lg:flex-1 lg-w-2/5 z-10 -mx-10 lt-lg:-mt-12 lg:-mx-12 lg:-my-16 relative">
+                <div class="w-1/3 lt-lg:flex-1 lg-w-2/5 z-10 -mx-10 lt-lg:-mt-12 lg:-mx-12 lg:-my-16 relative hover:big-110 hover:transition-transform">
                     <div class="h1 lg-h2 w-10 lg-w20 rounded mb2 lg-mb4 bg-e-primary mx-auto"></div>
                     <NuxtImg class="wfull" src="/images/Operations.svg"/>
                     <div class="absolute bottom-8 lg-bottom-11 xl-bottom-10 w-full py-0.5 lg-py2 bg-e-primary/50 text-3 lg-text-4 text-white text-center font-500 rounded-b-2 lg-rounded-b-5">Operations</div>
                 </div>
                 <!--Customer Service-->
-                <div class="w-1/3 relative lt-lg:flex-1">
+                <div class="w-1/3 relative lt-lg:flex-1 hover:big-110 hover:transition-transform">
                     <NuxtImg class="wfull" src="/images/CustomerService.svg"/>
                     <div class="absolute bottom-0 w-full py-0.5 lg-py2 bg-e-primary/50 text-3 lg-text-4 text-white text-center font-500 rounded-b-2 lg-rounded-b-5">Customer Service</div>
                 </div>
@@ -106,7 +106,7 @@ async function submitForm() {
     </div>
 
     <!--STATISTICS-->
-    <div class="bg-e-primary/15 pt10 pb15 lg-pt20 lg-pb40 mb50 xs:mb60 2xs:mb80 2sm:mb90 md:mb100 2md:mb120 md:px10 lg:mb150 sm:px10 ">
+    <div class="bg-e-primary/15 pt10 pb15 lg-pt20 lg-pb40 mb60 xs:mb70 2xs:mb80 2sm:mb90 md:mb100 2md:mb120 md:px10 lg:mb150 sm:px10 ">
         <div class="w-content relative">
             <div class="flex justify-between lt-2md:max-w-[500px] max-w-[800px] mx-auto">
                 <div class="text-center">
@@ -122,7 +122,7 @@ async function submitForm() {
                     <p class="text-3 xl-text-4 text-e-primary font600">Clients</p>
                 </div>
             </div>
-            <div class="absolute left-0 right-0 -mt6 sm:-mt9 2sm:-mt10 2md:-mt12 lg:-mt15 xl:-mt12 w-full">
+            <div class="absolute left-0 right-0 -mt4 sm:-mt9 2sm:-mt10 2md:-mt12 lg:-mt15 xl:-mt12 w-full">
                 <NuxtImg class="w-full" data-aos="fade-up" data-aos-delay="600" src="images/ChartSection.svg"/>
             </div>
         </div>
