@@ -51,7 +51,7 @@ const footerLinks = [
     links: [
       { head: 'About Us', to: '/about' },
       { head: 'Payment Solution', to: '/payment' },
-      { head: 'Department', to: '/departments'}
+      { head: 'Departments', to: '/departments'}
     ],
   },
 ]

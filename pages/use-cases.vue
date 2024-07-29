@@ -31,8 +31,8 @@ function goToContact() {
     <div class="bg-[#D] pt10 pb15 lg:pt20 lg:pb30">
         <div class="w-content">
             <!--<h3 class="fw700 text-6 lg:text-8 lg:text-center mb8 lg:mb12">Features</h3>-->
-            <div class="flex flex-col md:flex-row gap4 2lg:gap8 justify-between lt-md:items-center">
-                <div class="bg-[#eee] rounded-5 overflow-hidden lg:w-1/3 shadow-custom lt-md:max-w-[300px]">
+            <div class="flex flex-col md:flex-row lt-md:gap8 gap4 2lg:gap8 justify-between lt-md:items-center">
+                <div class="bg-e-primary rounded-5 overflow-hidden lg:w-1/3 shadow-custom lt-md:max-w-[300px]">
                     <div class="bg-white pt6 lg:pt8 pb2">
                         <svg class="h6 w6 lg:h8 lg:w8 mx-auto" viewBox="0 0 45 45" fill="none" xmlns="http://www.w3.org/2000/svg">
     <path d="M42.1875 18.2812H40.2891L35.4059 7.29492C35.1849 6.79786 34.8245 6.37555 34.3683 6.07916C33.9122 5.78276 33.3799 5.62501 32.8359 5.625H12.1641C11.6201 5.62501 11.0878 5.78276 10.6317 6.07916C10.1755 6.37555 9.81513 6.79786 9.59414 7.29492L4.71094 18.2812H2.8125C2.43954 18.2812 2.08185 18.4294 1.81813 18.6931C1.55441 18.9569 1.40625 19.3145 1.40625 19.6875C1.40625 20.0605 1.55441 20.4181 1.81813 20.6819C2.08185 20.9456 2.43954 21.0938 2.8125 21.0938H4.21875V35.1562C4.21875 35.9022 4.51507 36.6175 5.04251 37.145C5.56996 37.6724 6.28533 37.9688 7.03125 37.9688H11.25C11.9959 37.9688 12.7113 37.6724 13.2387 37.145C13.7662 36.6175 14.0625 35.9022 14.0625 35.1562V33.75H30.9375V35.1562C30.9375 35.9022 31.2338 36.6175 31.7613 37.145C32.2887 37.6724 33.0041 37.9688 33.75 37.9688H37.9688C38.7147 37.9688 39.43 37.6724 39.9575 37.145C40.4849 36.6175 40.7812 35.9022 40.7812 35.1562V21.0938H42.1875C42.5605 21.0938 42.9181 20.9456 43.1819 20.6819C43.4456 20.4181 43.5938 20.0605 43.5938 19.6875C43.5938 19.3145 43.4456 18.9569 43.1819 18.6931C42.9181 18.4294 42.5605 18.2812 42.1875 18.2812ZM14.0625 26.7188H9.84375C9.47079 26.7188 9.1131 26.5706 8.84938 26.3069C8.58566 26.0431 8.4375 25.6855 8.4375 25.3125C8.4375 24.9395 8.58566 24.5819 8.84938 24.3181C9.1131 24.0544 9.47079 23.9062 9.84375 23.9062H14.0625C14.4355 23.9062 14.7931 24.0544 15.0569 24.3181C15.3206 24.5819 15.4688 24.9395 15.4688 25.3125C15.4688 25.6855 15.3206 26.0431 15.0569 26.3069C14.7931 26.5706 14.4355 26.7188 14.0625 26.7188ZM35.1562 26.7188H30.9375C30.5645 26.7188 30.2069 26.5706 29.9431 26.3069C29.6794 26.0431 29.5312 25.6855 29.5312 25.3125C29.5312 24.9395 29.6794 24.5819 29.9431 24.3181C30.2069 24.0544 30.5645 23.9062 30.9375 23.9062H35.1562C35.5292 23.9062 35.8869 24.0544 36.1506 24.3181C36.4143 24.5819 36.5625 24.9395 36.5625 25.3125C36.5625 25.6855 36.4143 26.0431 36.1506 26.3069C35.8869 26.5706 35.5292 26.7188 35.1562 26.7188ZM7.78887 18.2812L12.1641 8.4375H32.8359L37.2111 18.2812H7.78887Z" fill="#4DB6AC"/>
@@ -60,7 +60,7 @@ function goToContact() {
 
                         <h4 class="text-4 fw700 text-center my2 w-[80%] lg:w-[80%] mx-auto">Real Time Performance Tracking</h4>
                     </div>
-                    <p class="text-white rounded-b-5 px6 lg:px8 pt6 pb8 text-3.5">Our monthly report contains the data you need to understand and align your parking operations with your broader business goals.</p>
+                    <p class="bg-e-primary text-white rounded-b-5 px6 lg:px8 pt6 pb8 text-3.5">Our monthly report contains the data you need to understand and align your parking operations with your broader business goals.</p>
                 </div>
             </div>
         </div>
