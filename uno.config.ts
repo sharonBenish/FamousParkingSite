@@ -44,6 +44,14 @@ export default defineConfig({
       'background-repeat': 'no-repeat, no-repeat, no-repeat',
       'background-size': '58%, 50%, 50%'  // You can adjust sizes as needed
     }],
+    [
+      'bg-dpt', {
+        'background-image': `url('/images/Vector.svg'), url('/images/dpt-svg.svg')`,
+        'background-position': 'right top, 0px 800px',
+        'background-repeat': 'no-repeat, no-repeat',
+        'background-size': '30%, 50%',  // You can adjust sizes as needed
+      }
+    ],
     ['bg-size', {'background-size': '750px', 'background-position': 'right 30px'}],
     ['bg-lg-size', {'background-size': '600px', 'background-position': 'left, 10%'}],
     ['bg-sm-size', {'background-size': '400px', 'background-position': '-20px bottom'}],

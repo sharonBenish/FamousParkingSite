@@ -19,6 +19,11 @@ function goToContact() {
   }
 }
 
+function goToDepartment(dpt:string) {
+    router.push(`/departments/#${dpt}`)
+}
+
+
 const loading = ref(false)
 const success = ref(false)
 
@@ -86,18 +91,18 @@ async function submitForm() {
             <p class="text-4">At FamousParking we put the pieces together to ensure your parking asset receives industry leading attention to detail in pricing, customer service and operations. Our approach not only boosts your earnings but also aligns seamlessly with your broader business objectives.</p>
             <div class="flex justify-evenly lg-justify-center wfull relative my-20 lg-my40 image-container">
                 <!--Detail In Pricing-->
-                <div class="w-1/3 h-auto relative lt-lg:flex-1 hover:big-110 hover:transition-transform">
+                <div @click="goToDepartment('pricing')" class="w-1/3 h-auto relative lt-lg:flex-1 hover:big-110 hover:transition-transform cursor-pointer">
                     <NuxtImg class="wfull object-cover" src="/images/Pricing.svg"/>
                     <div class="absolute bottom-0 w-full py-0.5 lg-py2 bg-e-primary/50 text-3 lg-text-4 text-white text-center font-500 rounded-b-2 lg-rounded-b-5 ">Detail In Pricing</div>
                 </div>
                 <!--Operations-->
-                <div class="w-1/3 lt-lg:flex-1 lg-w-2/5 z-10 -mx-10 lt-lg:-mt-12 lg:-mx-12 lg:-my-16 relative hover:big-110 hover:transition-transform">
+                <div class="w-1/3 lt-lg:flex-1 lg-w-2/5 z-10 -mx-10 lt-lg:-mt-12 lg:-mx-12 lg:-my-16 relative hover:big-110 hover:transition-transform cursor-pointer">
                     <div class="h1 lg-h2 w-10 lg-w20 rounded mb2 lg-mb4 bg-e-primary mx-auto"></div>
                     <NuxtImg class="wfull" src="/images/Operations.svg"/>
                     <div class="absolute bottom-8 lg-bottom-11 xl-bottom-10 w-full py-0.5 lg-py2 bg-e-primary/50 text-3 lg-text-4 text-white text-center font-500 rounded-b-2 lg-rounded-b-5">Operations</div>
                 </div>
                 <!--Customer Service-->
-                <div class="w-1/3 relative lt-lg:flex-1 hover:big-110 hover:transition-transform">
+                <div @click="goToDepartment('customer')" class="w-1/3 relative lt-lg:flex-1 hover:big-110 hover:transition-transform cursor-pointer">
                     <NuxtImg class="wfull" src="/images/CustomerService.svg"/>
                     <div class="absolute bottom-0 w-full py-0.5 lg-py2 bg-e-primary/50 text-3 lg-text-4 text-white text-center font-500 rounded-b-2 lg-rounded-b-5">Customer Service</div>
                 </div>
