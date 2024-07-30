@@ -21,7 +21,7 @@ function goToContact() {
 </script>
 
 <template>
-    <div class="hero relative wfull h60dvh xl:h70dvh bg-[url('/images/Department.svg')] bg-cover bg-center bg-no-repeat -mt20 lg:-mt24">
+    <div class="hero relative wfull h60dvh xl:h70dvh bg-[url('/images/Operations.svg')] bg-cover bg-center bg-no-repeat -mt20 lg:-mt24">
         <div class="hero-text text-white absolute bottom-10 w-site right-1/2 left-1/2 -translate-x-1/2 z-200">
             <h1 class="font-800 text-9 2md:text-12 lg-text-16 lg-w180">Operations</h1>
         </div>
