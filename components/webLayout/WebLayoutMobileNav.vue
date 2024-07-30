@@ -28,8 +28,7 @@ const navLink = [
   { head: 'Services', to: '/services' },
   { head: 'Use Cases', to: '/use-cases' },
   { head: 'Technology', to: '/technology' },
-  { head: 'Payment Solution', to: '/payment' },
-  { head: 'Departments', to: '/departments' }
+  { head: 'Payment Solution', to: '/payment' }
 ]
 </script>
 

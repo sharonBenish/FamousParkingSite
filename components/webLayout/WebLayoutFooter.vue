@@ -50,8 +50,7 @@ const footerLinks = [
     title: 'More',
     links: [
       { head: 'About Us', to: '/about' },
-      { head: 'Payment Solution', to: '/payment' },
-      { head: 'Departments', to: '/departments'}
+      { head: 'Payment Solution', to: '/payment' }
     ],
   },
 ]

@@ -11,8 +11,7 @@ const navLink = [
 ]
 const subNavLink = [
   { head: 'About Us', to: '/about' },
-  { head: 'Payment Solution', to: '/payment' },
-  { head: 'Departments', to: '/departments' }
+  { head: 'Payment Solution', to: '/payment' }
 ]
 
 const dropdown = ref(false)
