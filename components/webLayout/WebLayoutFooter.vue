@@ -36,7 +36,8 @@ const footerLinks = [
     links: [
       { head: 'Sales@famousparking.com', to: 'mailto:' },
       { head: 'support@famousparking.com', to: 'mailto:' },
-      { head: '+1 (331) 248-5708', to: 'tel:' }
+      { head: '+1 (331) 316-8148', to: 'tel:' },
+      { head: '+1 (217) 978-7672', to: 'tel:' }
     ],
   },
   {
