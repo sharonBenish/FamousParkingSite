@@ -92,19 +92,19 @@ async function submitForm() {
             <div class="flex justify-evenly lg-justify-center wfull relative my-20 lg-my40 image-container">
                 <!--Detail In Pricing-->
                 <div @click="router.push('/pricing')" class="w-1/3 h-auto relative lt-lg:flex-1 hover:big-110 hover:transition-transform cursor-pointer">
-                    <NuxtImg class="wfull object-cover" src="/images/Pricing.svg"/>
-                    <div class="absolute bottom-0 w-full py-0.5 lg-py2 bg-e-primary/50 text-3 lg-text-4 text-white text-center font-500 rounded-b-2 lg-rounded-b-5 ">Detail In Pricing</div>
+                    <NuxtImg class="wfull hfull object-cover rounded-2" src="/images/Pricing.png"/>
+                    <div class="absolute bottom-0 w-full py-0.5 lg-py2 bg-e-primary/50 text-3 lg-text-4 text-white text-center font-500 rounded-b-2">Detail In Pricing</div>
                 </div>
                 <!--Operations-->
-                <div @click="router.push('/operations')" class="w-1/3 lt-lg:flex-1 lg-w-2/5 z-10 -mx-10 lt-lg:-mt-12 lg:-mx-12 lg:-my-16 relative hover:big-110 hover:transition-transform cursor-pointer">
+                <div @click="router.push('/operations')" class="w-1/3 lt-lg:flex-1 lg-w-2/5 z-10 -mx-10 lt-lg:-mt-12 lg:-mx-12 lg:-my-12 relative hover:big-110 hover:transition-transform cursor-pointer">
                     <div class="h1 lg-h2 w-10 lg-w20 rounded mb2 lg-mb4 bg-e-primary mx-auto"></div>
-                    <NuxtImg class="wfull" src="/images/Operations.svg"/>
-                    <div class="absolute bottom-8 lg-bottom-11 xl-bottom-10 w-full py-0.5 lg-py2 bg-e-primary/50 text-3 lg-text-4 text-white text-center font-500 rounded-b-2 lg-rounded-b-5">Operations</div>
+                    <NuxtImg class="wfull object-cover rounded-2" src="/images/Operations.png"/>
+                    <div class="absolute bottom-8 lg-bottom-6 xl-bottom-7 w-full py-0.5 lg-py2 bg-e-primary/50 text-3 lg-text-4 text-white text-center font-500 rounded-b-2">Operations</div>
                 </div>
                 <!--Customer Service-->
                 <div @click="router.push('/customer-service')" class="w-1/3 relative lt-lg:flex-1 hover:big-110 hover:transition-transform cursor-pointer">
-                    <NuxtImg class="wfull" src="/images/CustomerService.svg"/>
-                    <div class="absolute bottom-0 w-full py-0.5 lg-py2 bg-e-primary/50 text-3 lg-text-4 text-white text-center font-500 rounded-b-2 lg-rounded-b-5">Customer Service</div>
+                    <NuxtImg class="wfull" src="/images/CustomerService.png"/>
+                    <div class="absolute bottom-0 w-full py-0.5 lg-py2 bg-e-primary/50 text-3 lg-text-4 text-white text-center font-500 rounded-b-2">Customer Service</div>
                 </div>
             </div>
 
@@ -224,7 +224,7 @@ async function submitForm() {
                     </div>
                     <div class="wfull lg-w-1/2 flex flex-col gap2">
                         <label for="number">Phone number</label>
-                        <input v-model="contactForm.number" required name="number" id="number" type="number" class="outline-0 px2.5 py3 border border-[#E2E1E5] bg-white rounded placeholder-[#D2D2D2]" placeholder="Phone number" />
+                        <input v-model="contactForm.number" required name="number" id="number" type="tel" class="outline-0 px2.5 py3 border border-[#E2E1E5] bg-white rounded placeholder-[#D2D2D2]" placeholder="Phone number" />
                     </div>
                 </div>
                 <div class="flex flex-col gap2 mb10">
