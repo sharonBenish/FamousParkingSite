@@ -43,8 +43,8 @@ const footerLinks = [
   {
     title: 'Legal',
     links: [
-      { head: 'Privacy Policy', to: '/' },
-      { head: 'Terms and Conditions', to: '/' },
+      { head: 'Privacy Policy', to: '/privacy' },
+      { head: 'Terms and Conditions', to: '/terms' },
     ],
   },
   {
