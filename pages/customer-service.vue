@@ -40,7 +40,7 @@ function goToContact() {
                 <p class="text-4 mb4">We are committed to being available from 5 AM to 2 AM daily, with an impressive average response time of less than one minute. We listen to our customers and solve their problems promptly with clear directions, photos, towing services, and refunds.</p>
                 <p class="text-4 mb4">Famous Parking lots have customers who are big fans, and we build those relationships one solved problem at a time. In June, our dedicated team of (5) five handled an average of 65 customer inquiries per day, and in July, this number rose to 80 inquiries per day. We assist customers in locating their parking spots and tow illegally parked vehicles to ensure our customers can enjoy their reserved spots.</p>
                 <p class="text-4">Here's an interesting tidbit: Our team navigates and identifies correct locations using photos from customers and Google Maps, all without being on-site.</p>
-                <NuxtImg src="/images/customer.jpg" class="wfull my10 rounded-2 max-h-100 object-cover" />
+                <img src="/images/customer.jpg" class="wfull my10 rounded-2 max-h-100 object-cover" />
             </div>
             </div>
         </div>

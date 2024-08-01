@@ -42,7 +42,7 @@ function goToContact() {
                     Get In Touch
                     </button>
                 </div>
-                <NuxtImg data-aos="fade-right" class="lg:w-1/2 2md:min-h-80 max-h-90 rounded-4 object-cover" src="/images/Pricing.jpeg"/>
+                <img data-aos="fade-right" class="lg:w-1/2 2md:min-h-80 max-h-90 rounded-4 object-cover" src="/images/Pricing.jpeg"/>
             </div>
             <div class="bg-e-primary h0.25 wfull lg:w-[30%] mx-auto my10 lg:my18"></div>
             <div class="flex flex-col lg:flex-row gap10 lg:gap20 text-[#757575]">
@@ -56,7 +56,7 @@ function goToContact() {
                     Get In Touch
                     </button>
                 </div>
-                <NuxtImg data-aos="fade-left" class="lg:w-1/2 2md:min-h-80 rounded-4 object-cover" src="/images/lpr.png"/>
+                <img data-aos="fade-left" class="lg:w-1/2 2md:min-h-80 rounded-4 object-cover" src="/images/lpr.png"/>
             </div>
             <div class="bg-e-primary h0.25 wfull lg:w-[30%] mx-auto my10 lg:my18"></div>
             <div class="flex-col flex lg:flex-row-reverse gap10 lg:gap20 text-[#757575]">
@@ -70,7 +70,7 @@ function goToContact() {
                     Get In Touch
                     </button>
                 </div>
-                <NuxtImg data-aos="fade-right" class="lg:w-1/2 2md:min-h-80 rounded-4 object-cover" src="/images/Marketing.jpeg"/>
+                <img data-aos="fade-right" class="lg:w-1/2 2md:min-h-80 rounded-4 object-cover" src="/images/Marketing.jpeg"/>
             </div>
             <div class="bg-e-primary h0.25 wfull lg:w-[30%] mx-auto my10 lg:my18"></div>
             <div class="flex flex-col lg:flex-row gap10 lg:gap20 text-[#757575]">
@@ -84,7 +84,7 @@ function goToContact() {
                     Get In Touch
                     </button>
                 </div>
-                <NuxtImg data-aos="fade-left" class="lg:w-1/2 2md:min-h-80 rounded-4 object-cover" src="/images/data.jpg"/>
+                <img data-aos="fade-left" class="lg:w-1/2 2md:min-h-80 rounded-4 object-cover" src="/images/data.jpg"/>
             </div>
             <div class="bg-e-primary h0.25 wfull lg:w-[30%] mx-auto my10 lg:my18"></div>
             <div class="flex flex-col lg:flex-row-reverse gap10 lg:gap20 text-[#757575]">
@@ -98,7 +98,7 @@ function goToContact() {
                     Get In Touch
                     </button>
                 </div>
-                <NuxtImg data-aos="fade-right" class="lg:w-1/2 2md:min-h-80 rounded-4 object-cover" src="/images/enforcement.jpg"/>
+                <img data-aos="fade-right" class="lg:w-1/2 2md:min-h-80 rounded-4 object-cover" src="/images/enforcement.jpg"/>
             </div>
             <div class="bg-e-primary h0.25 wfull lg:w-[30%] mx-auto my10 lg:my18"></div>
             <div class="flex flex-col lg:flex-row gap10 lg:gap20 text-[#757575]">
@@ -112,7 +112,7 @@ function goToContact() {
                     Get In Touch
                     </button>
                 </div>
-                <NuxtImg data-aos="fade-left" class="lg:w-1/2 2md:min-h-80 rounded-4 object-cover" src="/images/reporting.jpg"/>
+                <img data-aos="fade-left" class="lg:w-1/2 2md:min-h-80 rounded-4 object-cover" src="/images/reporting.jpg"/>
             </div>
         </div>
     </div>

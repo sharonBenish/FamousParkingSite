@@ -16,7 +16,7 @@
                     <h3 class="text-5 lg:text-9 fw800 text-[#424242] border-b-e-primary border-b mb5 mr50">Our Story</h3>
                     <p class="text-3 lg:text-4">FamousParking was founded in 2024 by Steven Lawrence who recognized that the "growth at all costs" mentality in parking management was reducing value for owners. At FamousParking, we decided to do things differently. With one employee per 60 spots, a strong technical team, and a passion for value creation, we provide individualized attention that our competitors cannot match.</p>
                 </div>
-                <NuxtImg src="/images/meeting.jpg" class="mt10 wfull hauto " />
+                <img src="/images/meeting.jpg" class="mt10 wfull hauto " />
             </div>
             <div class="bg-white lt-lg:mt10 lg:relative top-16 -left-16 shadow-custom flex flex-col items-center rounded-4 lg:rounded-7.5 px6 pt6 pb10 lg:py10 lg:px8 text-center hmin" data-aos="fade-left">
                 <div class="h8 w8 lg:h10 lg:w10 bg-e-primary rounded-full flex items-center justify-center mb2">
@@ -35,7 +35,7 @@
             <div>
                 <h2 class="border-l-e-primary pl2 lg-pl4 border-l-8 mb6 text-5 lg-text-9 font700 text-[#424242] lg:mb10">Why Us?</h2>
                 <div class="relative">
-                    <NuxtImg src="/images/team.jpg" class="wfull min-h50 max-h150 relative z-10" />
+                    <img src="/images/team.jpg" class="wfull min-h50 max-h150 relative z-10" />
                     <div class="absolute top-5 left-20 lg:top-20 xs:left-15 sm:left-10 lg:left-20 border-2 border-e-primary w-[80%] 2xs:w-[90%] sm:w-[95%] hfull lg:h-100  2lg:h-125 rounded-2.5"></div>
                 </div>
             </div>

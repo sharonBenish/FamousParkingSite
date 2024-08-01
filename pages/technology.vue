@@ -40,7 +40,7 @@ function goToContact() {
                     <li class="mb4">Our proprietary Excel models drive pricing efficiencies and create actionable insights for our team’s quality pricing decisions.</li>
                 </ul>
             </div>
-            <NuxtImg src="/images/lpr.webp" class="flex-1 max-h-[400px] object-cover overflow-hidden rounded-4 lg:rounded-[30px]" />
+            <img src="/images/lpr.webp" class="flex-1 max-h-[400px] object-cover overflow-hidden rounded-4 lg:rounded-[30px]" />
             <ul class="list-circle my ml4 text-3.5 md:text-4 lg:hidden">
                 <li class="mb4">A dedicated business development team focused on increasing revenue.</li>
                 <li class="mb4">Dynamic Pricing system ensures drivers always pay the optimal rate.</li>

@@ -80,12 +80,12 @@ function goToContact() {
             </div>
             <div class="lg:flex-1 sm:max-w-[600px]">
                 <div class="flex justify-center gap3 lg:gap5 ml4 lg:ml10 mb3 lg:mb5" data-aos="fade-left">
-                    <NuxtImg src="/images/park1.jpg" class="flex-auto w-1/2 lt-2lg:max-h-[200px] object-contain" />
-                    <NuxtImg src="/images/park2.jpg" class="flex-auto w-1/2 lt-2lg:max-h-[200px] object-contain" />
+                    <img src="/images/park1.jpg" class="flex-auto w-1/2 lt-2lg:max-h-[200px] object-contain" />
+                    <img src="/images/park2.jpg" class="flex-auto w-1/2 lt-2lg:max-h-[200px] object-contain" />
                 </div>
                 <div class="flex justify-between gap3 lg:gap5 mr4 lg:mr10" data-aos="fade-right">
-                    <NuxtImg src="/images/park3.jpg" class="flex-auto w-1/2 lt-2lg:max-h-[200px] object-contain" />
-                    <NuxtImg src="/images/park5.jpg" class="flex-auto w-1/2 lt-2lg:max-h-[200px] object-contain" />
+                    <img src="/images/park3.jpg" class="flex-auto w-1/2 lt-2lg:max-h-[200px] object-contain" />
+                    <img src="/images/park5.jpg" class="flex-auto w-1/2 lt-2lg:max-h-[200px] object-contain" />
                 </div>
             </div>
             <ul class="list-circle my ml4 text-3.5 md:text-4.5 lg:hidden">

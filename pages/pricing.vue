@@ -38,7 +38,7 @@ function goToContact() {
                     <h3 class="lt-2xs:text-5 text-6 fw600 text-e-primary mb4">Dynamic Pricing</h3>
                     <p class="text-4 mb4">Our Pricing Team uses detailed analysis and historical data to set flexible, precise rates for parking facilities. With full-time specialists and advanced tools, we adjust pricing based on demand patterns, such as weekends and midnight hours, and adapt monthly rates to seasonal trends and location.</p>
                     <p class="text-4">With our proactive approach and consistency, we have recorded different records of sales during special recurring demand trends, example was Senate House session, where we recorded $35- $45 for less than 6 hour parking duration. We focus on smart, data-driven pricing to maximize revenue and enhance our facility's performance.</p>
-                    <NuxtImg src="/images/pricing-dpt.jpg" class="wfull my10 rounded-2 max-h-100 object-cover" />
+                    <img src="/images/pricing-dpt.jpg" class="wfull my10 rounded-2 max-h-100 object-cover" />
                 </div>
             </div>
             <div class="flex lt-2xs:flex-col lt-2xs:gap5 gap20 mb15">
@@ -48,7 +48,7 @@ function goToContact() {
             <div class="lt-2xs:w-full w-2/3 flex-1 md:text-justify">
                 <h3 class="lt-2xs:text-5 text-6 text-e-primary fw600 mb4">Event Pricing</h3>
                 <p class="text-4 mb4">Parking develops a reputation when the price is perfect. We have people not algorithms to adjust event prices in real time based on weather, competitors, sales rate, and time remaining. Where other lots sell out days in advance or leave empty spots, we get the most out of every event. Build an audience of wealthy people looking for convenience by always having a spot available last minute before the event. Appeal to budget conscious fans with discounts when it's slow. </p> 
-                <NuxtImg src="/images/pricing-dpt2.jpg" class="wfull my10 rounded-2 max-h-100 object-cover" />              
+                <img src="/images/pricing-dpt2.jpg" class="wfull my10 rounded-2 max-h-100 object-cover" />              
             </div>
         </div>
         </div>

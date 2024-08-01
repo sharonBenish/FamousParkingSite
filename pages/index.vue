@@ -92,18 +92,18 @@ async function submitForm() {
             <div class="flex justify-evenly lg-justify-center wfull relative my-20 lg-my40 image-container">
                 <!--Detail In Pricing-->
                 <div @click="router.push('/pricing')" class="w-1/3 h-auto relative lt-lg:flex-1 hover:big-110 hover:transition-transform cursor-pointer">
-                    <NuxtImg class="wfull hfull object-cover rounded-2" src="/images/Pricing.png"/>
+                    <img class="wfull hfull object-cover rounded-2" src="/images/Pricing.png"/>
                     <div class="absolute bottom-0 w-full py-0.5 lg-py2 bg-e-primary/50 text-3 lg-text-4 text-white text-center font-500 rounded-b-2">Detail In Pricing</div>
                 </div>
                 <!--Operations-->
                 <div @click="router.push('/operations')" class="w-1/3 lt-lg:flex-1 lg-w-2/5 z-10 -mx-10 lt-lg:-mt-12 lg:-mx-12 lg:-my-12 relative hover:big-110 hover:transition-transform cursor-pointer">
                     <div class="h1 lg-h2 w-10 lg-w20 rounded mb2 lg-mb4 bg-e-primary mx-auto"></div>
-                    <NuxtImg class="wfull object-cover rounded-2" src="/images/Operations.png"/>
+                    <img class="wfull object-cover rounded-2" src="/images/Operations.png"/>
                     <div class="absolute bottom-8 lg-bottom-6 xl-bottom-7 w-full py-0.5 lg-py2 bg-e-primary/50 text-3 lg-text-4 text-white text-center font-500 rounded-b-2">Operations</div>
                 </div>
                 <!--Customer Service-->
                 <div @click="router.push('/customer-service')" class="w-1/3 relative lt-lg:flex-1 hover:big-110 hover:transition-transform cursor-pointer">
-                    <NuxtImg class="wfull" src="/images/CustomerService.png"/>
+                    <img class="wfull" src="/images/CustomerService.png"/>
                     <div class="absolute bottom-0 w-full py-0.5 lg-py2 bg-e-primary/50 text-3 lg-text-4 text-white text-center font-500 rounded-b-2">Customer Service</div>
                 </div>
             </div>
@@ -135,7 +135,7 @@ async function submitForm() {
                 </div>
             </div>
             <div class="absolute left-0 right-0 -mt4 sm:-mt9 2sm:-mt10 2md:-mt12 lg:-mt15 xl:-mt12 w-full">
-                <NuxtImg class="w-full" data-aos="fade-up" data-aos-delay="600" src="images/ChartSection.svg"/>
+                <img class="w-full" data-aos="fade-up" data-aos-delay="600" src="/images/ChartSection.svg"/>
             </div>
         </div>
     </div>

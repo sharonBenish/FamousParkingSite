@@ -41,7 +41,7 @@ function goToContact() {
                 <p class="text-4 mb4">Our team manages online listings, ensuring that all essential information—such as instructions, photos, and other details—is accurately uploaded and readily available for customers before they make a booking. This streamlined process is designed to enhance the customer experience, making it as effortless and informative as possible. We aim to provide customers with everything they need to make confident decisions, resulting in a smooth and satisfying booking experience.</p>
                 <p class="text-4 mb4">We recognize the importance of clear communication with our landlords. By addressing their concerns promptly and efficiently, we foster strong relationships and improve overall engagement. Our commitment to timely support ensures that landlords feel valued and heard.</p>
                 <p class="text-4">Our proactive approach allows us to identify and mitigate potential issues before they arise, leading to stronger partnerships and increased satisfaction among all stakeholders. By employing data-driven strategies, we are dedicated to optimizing performance and maximizing profitability for our partners.</p>
-                <NuxtImg src="/images/sales.jpg" class="wfull my10 rounded-2 max-h-100 object-cover" />
+                <img src="/images/sales.jpg" class="wfull my10 rounded-2 max-h-100 object-cover" />
             </div>
             </div>
         </div>

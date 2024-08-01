@@ -41,7 +41,7 @@ function goToContact() {
                     <p class="text-3.5 lg:text-4">Through our SpotHero partner we provide physical QR code-based payment solutions for seamless user experience at our contracted lots. </p>
                 </div>
             </div>
-            <NuxtImg src="/images/payment.jpeg" class="flex-1 rounded-4 lt-xs:max-h-80 lt-lg:max-h-100 lt-lg:w-full lg:rounded-[30px] 2lg:-mr-[80px] object-cover overflow-hidden" />
+            <img src="/images/payment.jpeg" class="flex-1 rounded-4 lt-xs:max-h-80 lt-lg:max-h-100 lt-lg:w-full lg:rounded-[30px] 2lg:-mr-[80px] object-cover overflow-hidden" />
         </div>
     </div>
     <div class="bg-e-primary text-white py15 lg:py20">
