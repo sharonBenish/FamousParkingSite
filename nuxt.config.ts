@@ -5,7 +5,6 @@ export default defineNuxtConfig({
   modules: [
     '@unocss/nuxt',
     '@morev/vue-transitions/nuxt',
-    '@nuxt/image',
     "@nuxt/icon"
   ],
 

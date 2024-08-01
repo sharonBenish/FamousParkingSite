@@ -12,7 +12,6 @@
   "dependencies": {
     "@morev/vue-transitions": "^3.0.2",
     "@nuxt/icon": "^1.0.0",
-    "@nuxt/image": "^1.7.0",
     "aos": "^2.3.4",
     "nuxt": "^3.12.2",
     "vue": "^3.4.29",
