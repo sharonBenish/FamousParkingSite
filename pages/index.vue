@@ -64,7 +64,7 @@ async function submitForm() {
 <template>
     <!--HERO SECTION-->
     <div class="hero relative wfull h85dvh md:h85dvh 3xl:h70dvh bg-[url('/images/Hero-img.svg')] bg-center bg-cover -mt20 lg:-mt22">
-        <div class="hero-text text-white absolute bottom-65 lg:bottom-75 lt-2xl:w-site 2xl:w-[80%] right-1/2 left-1/2 -translate-x-1/2 z-200 flex flex-col lg:items-end lg:text-right">
+        <div class="hero-text text-white absolute bottom-65 lg:bottom-75 lt-2xl:w-site 2xl:w-[80%] right-1/2 left-1/2 -translate-x-1/2 z-200 lg:pl-30">
             <h1 class="font-800 text-10 2md:text-12 lg:text-18 lg:w250 xl:300 mb6 lg:mb10" data-aos="fade-right" data-aos-delay="200" data-aos-easing="linear">Get Famous. Make Money.</h1>
             <div data-aos="fade-right" data-aos-delay="400" data-aos-easing="linear"  class="lg-flex lg-flex-row lg-gap-10 items-end">
                 <p class="font-600 xl:text-6 md:w150 lg:wmax">Parking management that will make your lot known. Start today!</p>

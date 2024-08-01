@@ -14,7 +14,7 @@
             <div>
                 <div class="lg:w-[80%]">
                     <h3 class="text-5 lg:text-9 fw800 text-[#424242] border-b-e-primary border-b mb5 mr50">Our Story</h3>
-                    <p class="text-3 lg:text-4">FamousParking was founded in 2024 by Steven Lawrence who recognized that the "growth at all costs" mentality in parking management was reducing value for owners. At FamousParking, we decided to do things differently. With one employee per 60 spots, a strong technical team, and a passion for value creation, we provide individualized attention that our competitors cannot match.</p>
+                    <p class="text-4">FamousParking was founded in 2024 by Steven Lawrence who recognized that the "growth at all costs" mentality in parking management was reducing value for owners. At FamousParking, we decided to do things differently. With one employee per 60 spots, a strong technical team, and a passion for value creation, we provide individualized attention that our competitors cannot match.</p>
                 </div>
                 <img src="/images/meeting.jpg" class="mt10 wfull hauto " />
             </div>
@@ -25,7 +25,7 @@
                     </svg>
                 </div>
                 <h3 class="text-5 fw700 text-[#424242] mb2 lg:mb4">Our Vision</h3>
-                <p class="text-3 lg:text-4">We envision a future where owners maximize their parking assets, boosting revenues and servicing debt under better terms. We believe active management and attention to detail are essential to accurately price parking at what consumers are willing to pay. If this vision excites you, join us.</p>
+                <p class="text-4">We envision a future where owners maximize their parking assets, boosting revenues and servicing debt under better terms. We believe active management and attention to detail are essential to accurately price parking at what consumers are willing to pay. If this vision excites you, join us.</p>
             </div>
         </div>
     </div>
