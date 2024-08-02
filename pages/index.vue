@@ -36,7 +36,7 @@ const contactForm = ref({
     address: '',
     message: '',
 })
-const FORMSPARK_ACTION_URL = "https://submit-form.com/zdAuXJ9qB"
+const FORMSPARK_ACTION_URL = "https://submit-form.com/b2Lf2bMuX"
 
 async function submitForm() {
     success.value = false
