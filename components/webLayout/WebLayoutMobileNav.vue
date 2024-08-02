@@ -34,7 +34,7 @@ const navLink = [
 
 <template>
   <Transition name="slide-fade">
-    <div v-show="isOpen" class="h-100svh lg:hidden bg-e-primary flex flex-col h-full text-white">
+    <div v-show="isOpen" class="h-100svh lg:hidden bg-e-primary flex flex-col  text-white">
       <div class="flex justify-between items-center px-6">
         <NuxtLink to="/">
           <NuxtImg src="/images/Logo.svg" class="w18 lg-w24 hauto" />
@@ -53,10 +53,10 @@ const navLink = [
         >
           {{ item.head }}
         </NuxtLink>
-        <div flex-auto />
+        <!-- <div flex-auto  /> -->
         <NuxtLink
           @click="goToContact()"
-          class="flex justify-center mt-12 border px-2 py-4"
+          class="flex justify-center mt-20 border px-2 py-4"
         >
           Get In Touch
         </NuxtLink>

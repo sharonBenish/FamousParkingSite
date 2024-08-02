@@ -35,7 +35,8 @@ const footerLinks = [
     title: 'Contact',
     links: [
       { head: 'Sales@famousparking.com', to: 'mailto:' },
-      { head: 'support@famousparking.com', to: 'mailto:' },
+      { head: 'Support@famousparking.com', to: 'mailto:' },
+      { head: 'Contact Sales team:', to:''},
       { head: '+1 (331) 316-8148', to: 'tel:' },
       { head: '+1 (217) 978-7672', to: 'tel:' }
     ],
@@ -51,7 +52,10 @@ const footerLinks = [
     title: 'More',
     links: [
       { head: 'About Us', to: '/about' },
-      { head: 'Payment Solution', to: '/payment' }
+      { head: 'Payment Solution', to: '/payment' },
+      // { head: 'Customer Service', to: '/customer-service' },
+      // { head: 'Operations', to: '/operations' },
+      // { head: 'Dynamic Pricing', to: '/pricing' }
     ],
   },
 ]
@@ -76,9 +80,10 @@ const year = new Date().getFullYear()
           <NuxtLink v-if="item.title !== 'Contact'" v-for="list of item.links" :key="list.head" :to="list.to" class="text-3 lg:text-3.75 mb1.5 fw300 block hover:text-e-primary duration-400">
             {{ list.head }}
           </NuxtLink>
-          <a v-else v-for="list of item.links" :key="list.to" :href="`${list.to}${list.head}`" class="text-3 lg:text-3.75 mb1.5 fw300 block hover:text-e-primary duration-400">
-            {{list.head}}
-          </a>
+          <template v-else v-for="list of item.links" :key="list.to"  >
+            <a v-if="list.to !==''" :href="`${list.to}${list.head}`" class="text-3 lg:text-3.75 mb1.5 fw300 block hover:text-e-primary duration-400">{{list.head}}</a>
+            <p v-else class="text-4 fw600">{{list.head}}</p>
+          </template>
         </div>
       </div>
       <div class="">

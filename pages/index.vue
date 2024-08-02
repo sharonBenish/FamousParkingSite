@@ -122,16 +122,16 @@ async function submitForm() {
         <div class="w-content relative">
             <div class="flex justify-between lt-2md:max-w-[500px] max-w-[800px] mx-auto">
                 <div class="text-center">
-                    <h3 class="text-5 lg-text-8 xl-text-10 text-[#424242] font700" data-aos="fade-down" data-aos-easing="linear">70+</h3>
+                    <h3 class="text-5 lg-text-8 xl-text-10 text-[#424242] font700" data-aos="fade-down" data-aos-easing="linear">500+</h3>
                     <p class="text-3 xl-text-4 text-e-primary font600">Parking Locations</p>
                 </div>
                 <div class="text-center">
-                    <h3 class="text-5 lg-text-8 xl-text-10 text-[#424242] font700" data-aos="fade-down" data-aos-easing="linear" data-aos-delay="200">2,000+</h3>
-                    <p class="text-3 xl-text-4 text-e-primary font600">Customers</p>
+                    <h3 class="text-5 lg-text-8 xl-text-10 text-[#424242] font700" data-aos="fade-down" data-aos-easing="linear" data-aos-delay="200">300,000+</h3>
+                    <p class="text-3 xl-text-4 text-e-primary font600">Reservations</p>
                 </div>
                 <div class="text-center">
-                    <h3 class="text-5 lg-text-8 xl-text-10 text-[#424242] font700" data-aos="fade-down" data-aos-easing="linear" data-aos-delay="400">40+</h3>
-                    <p class="text-3 xl-text-4 text-e-primary font600">Clients</p>
+                    <h3 class="text-5 lg-text-8 xl-text-10 text-[#424242] font700" data-aos="fade-down" data-aos-easing="linear" data-aos-delay="400">300+</h3>
+                    <p class="text-3 xl-text-4 text-e-primary font600">Asset Owners</p>
                 </div>
             </div>
             <div class="absolute left-0 right-0 -mt4 sm:-mt9 2sm:-mt10 2md:-mt12 lg:-mt15 xl:-mt12 w-full">
