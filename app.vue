@@ -21,7 +21,7 @@ useSeoMeta({
   titleTemplate: title => (title !== 'Famous Parking' ? `${title} | Famous Parking` : title),
   description: 'Famous Parking is a platform that handles your parking needs',
   ogSiteName: 'FamousParking',
-  ogImage: '/images/Logo.svg',
+  ogImage: '/images/logo.png',
   ogImageAlt: 'FamousParking'
 })
 </script>
