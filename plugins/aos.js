@@ -8,8 +8,7 @@ export default defineNuxtPlugin((nuxtApp) => {
           disable: false,
           duration: 600,
           easing: 'ease-in-out-cubic',
-          once: true,
-          // offset: 200, // Uncomment or adjust as needed
+          once: true
         });
       });
     }
