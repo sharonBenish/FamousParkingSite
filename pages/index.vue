@@ -245,7 +245,8 @@ async function submitForm() {
                         Thank you for reaching out, our team will review your inquiry and respond as soon as possible.
                     </div>
                 </Transition>
-                <p class="text-[14px] md:text-[16px] mb4">By providing your phone number, you agree to receive SMS notifications from Famous Parking LLC, including parking confirmations, updates, and alerts. Message frequency may vary. Message and data rates may apply. Reply STOP to unsubscribe. Consent is not a condition of purchase</p>
+                <p class="text-[14px] md:text-[16px] font-bold mb4">SMS Terms of Service</p>
+                <p class="text-[14px] md:text-[16px] mb4">By opting into SMS from a web form or other medium, you are agreeing to receive SMS messages from Famous Parking. This includes SMS messages for appointment scheduling, appointment reminders, post-visit instructions, lab notifications, and billing notifications. Message frequency varies. Message and data rates may apply. See privacy policy at <a class="text-e-primary underline cursor-pointer" href="https://famousparking.com/privacy" target="_blank">https://famousparking.com/privacy</a>. Message HELP for help. Reply STOP to any message to opt out.</p>
                 <div class="flex justify-end">
                     <button :disabled="loading" type="submit" class="bg-[#424242]! rounded-2.5 px8 py3 lg-px12 lg-py4 text-3 lg-text-3.725 text-white font700">
                         <span v-if="loading">Loading...</span>
