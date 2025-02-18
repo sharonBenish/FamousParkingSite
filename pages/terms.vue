@@ -98,6 +98,21 @@
     <h3>9. SMS Terms</h3>
     <p>By registering for the Services, you consent to receive communications from us, which may include calls and text messages to the cellular telephone number you provide to us. Depending on your relationship with us and consents received, we or our service providers send text messages to: (1) provide you with information you requested from us; (2) update you regarding your orders and other transactions with us; (3) respond to your customer service requests and other inquiries regarding your use of our services; and/or send you marketing or promotional text messages.</p>
 
+    <h5 class="font-bold">Potential Fees for SMS Messaging</h5>
+    <p>Carriers may charge fees for each message sent or received. These fees can vary based on the carrier's pricing structure and whether the message is sent domestically or internationally.</p>
+
+    <h5 class="font-bold">Opt-In Method</h5>
+    <p>Customers may opt-in for SMS messaging from FamousParking verbally during a call initiated through our website <a href="https://www.famousparking.com/" target="_blank">https://famousparking.com/</a>. During the call, customers will be asked:<br/><span class="italic">"Do you agree to receive texts from FamousParking? Message frequency varies. Message and data rates may apply. Text HELP for help, text STOP to opt-out. See our privacy policy at <a href="https://www.famousparking.com/privacy" target="_blank">https://famousparking.com/privacy</a>."</span><br/>This consent agreement will not be shared with third parties and affiliates for marketing purposes. No SMS communication will be initiated without customer consent.</p>
+
+    <h5 class="font-bold">Standard Messaging Disclosures</h5>
+    <ul class="mt-4! mb-8!">
+        <li>Messaging frequency may vary.</li>
+        <li>Message and data rates may apply.</li>
+        <li>To opt out at any time, text STOP.</li>
+        <li>For assistance, text HELP or visit our website at famousparking.com</li>
+        <li>Visit <a href="https://www.famousparking.com/privacy" target="_blank">https://famousparking.com/privacy</a> for privacy policy and <a href="https://www.famousparking.com/terms" target="_blank">https://famousparking.com/terms</a> for Terms of Service.</li>
+    </ul>
+
     <h4>A. Consent to Receipt of FamousParking Text Messages</h4>
     <p>You may provide us with consent to send you text messages through our website or mobile application (e.g. by providing us with your phone number and signing up for text messages) or through communications or transactions with us (e.g. by initiating or agreeing to receive text message communications with customer service). By providing your consent, you agree to these SMS Terms and our Terms of Service.</p>
     <p>By consenting to receive FamousParking text messages, you agree that FamousParking or its service providers may use any automated or non-automated technology to send you transactional messages. You are not required to consent to marketing text messages as a condition of purchase.</p>

@@ -248,7 +248,11 @@
 
             <p>This type of service makes it possible to manage a database of email contacts, phone contacts or any other contact information to communicate with the User. 
             These services may also collect data concerning the date and time when the message was viewed by the User, as well as when the User interacted with it, such as by clicking on links included in the message.</p>
+            
+            <h4>SMS Opt-in and Privacy</h4>
 
+            <p>FamousParking.com does not share phone numbers provided for SMS communication with any third parties or affiliate companies for marketing purposes. Phone numbers collected are used solely for the purpose of providing requested services, account-related notifications, or customer support. Users may opt out of receiving SMS messages at any time by following the instructions provided in the messages.</p>
+            
             <h4>Mailchimp (The Rocket Science Group, LLC.)</h4>
 
             <p>Mailchimp is an email address management and message sending service provided by Intuit Inc.</p>
