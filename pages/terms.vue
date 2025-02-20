@@ -102,7 +102,11 @@
     <p>Carriers may charge fees for each message sent or received. These fees can vary based on the carrier's pricing structure and whether the message is sent domestically or internationally.</p>
 
     <h5 class="font-bold">Opt-In Method</h5>
-    <p>Customers may opt-in for SMS messaging from FamousParking verbally during a call initiated through our website <a href="https://www.famousparking.com/" target="_blank">https://famousparking.com/</a>. During the call, customers will be asked:<br/><span class="italic">"Do you agree to receive texts from FamousParking? Message frequency varies. Message and data rates may apply. Text HELP for help, text STOP to opt-out. See our privacy policy at <a href="https://www.famousparking.com/privacy" target="_blank">https://famousparking.com/privacy</a>."</span><br/>This consent agreement will not be shared with third parties and affiliates for marketing purposes. No SMS communication will be initiated without customer consent.</p>
+    <!-- <p>Customers may opt-in for SMS messaging from FamousParking verbally during a call initiated through our website <a href="https://www.famousparking.com/" target="_blank">https://famousparking.com/</a>. During the call, customers will be asked:<br/><span class="italic">"Do you agree to receive texts from FamousParking? Message frequency varies. Message and data rates may apply. Text HELP for help, text STOP to opt-out. See our privacy policy at <a href="https://www.famousparking.com/privacy" target="_blank">https://famousparking.com/privacy</a>."</span><br/>This consent agreement will not be shared with third parties and affiliates for marketing purposes. No SMS communication will be initiated without customer consent.</p> -->
+    <p>You may opt-in to receive SMS messages from Famous Parking LLC in the following way:</p>
+    <ul class="mt-4! mb-8!">
+        <li>By submitting an online form</li>
+    </ul>
 
     <h5 class="font-bold">Standard Messaging Disclosures</h5>
     <ul class="mt-4! mb-8!">
