@@ -1,7 +1,6 @@
 <script setup lang="ts">
 const route = useRoute()
 const router = useRouter()
-
 const scrollToSection = () => {
   const section = document.getElementById('contact');
   if (section) {
@@ -246,10 +245,20 @@ async function submitForm() {
                         Thank you for reaching out, our team will review your inquiry and respond as soon as possible.
                     </div>
                 </Transition>
-                <p class="text-[14px] md:text-[16px] font-bold mb4">SMS Terms of Service</p>
+                <p class="text-[14px] md:text-[16px] font-bold mb4">Famous Parking SMS Terms of Service</p>
                 <div class="flex gap-2 items-start">
                     <input type="checkbox" id="sms" name="sms" true-value="yes" false-value="no" v-model="contactForm.sms" class="mt-1.5"/>
-                    <p class="text-[14px] md:text-[16px] mb4">By opting into SMS from a web form or other medium, you are agreeing to receive SMS messages from Famous Parking. This includes SMS messages for appointment scheduling, appointment reminders, post-visit instructions, lab notifications, and billing notifications. Message frequency varies. Message and data rates may apply. See privacy policy at <a class="text-e-primary underline cursor-pointer" href="https://famousparking.com/privacy" target="_blank">https://famousparking.com/privacy</a>. Message HELP for help. Reply STOP to any message to opt out.</p>
+                    <!-- <p class="text-[14px] md:text-[16px] mb4">By opting into SMS from a web form or other medium, you are agreeing to receive SMS messages from Famous Parking. This includes SMS messages for appointment scheduling, appointment reminders, post-visit instructions, lab notifications, and billing notifications. Message frequency varies. Message and data rates may apply. See privacy policy at <a class="text-e-primary underline cursor-pointer" href="https://famousparking.com/privacy" target="_blank">https://famousparking.com/privacy</a>. Message HELP for help. Reply STOP to any message to opt out.</p> -->
+                    <div>
+                        <p>By opting into SMS from Famous Parking, you agree to receive text messages related to appointment scheduling, deal follow-ups, property management discussions, and assistance with concerns.</p>
+                        <ul>
+                            <li>Message frequency may vary.</li>
+                            <li>Message & data rates may apply.</li>
+                            <li>Reply HELP for assistance.</li>
+                            <li>Reply STOP to opt-out at any time.</li>
+                            <li>Visit our <a href="https://www.famousparking.com/privacy" target="_blank">Privacy Policy</a> and <a href="https://www.famousparking.com/terms" target="_blank">Terms of Service</a> for more information.</li>
+                        </ul>
+                    </div>
                 </div>
                
                 <div class="flex justify-end">
@@ -310,5 +319,30 @@ async function submitForm() {
 
 .btn-white:hover > svg{
     fill: #fff
+}
+
+ol {
+    list-style-type: decimal; /* Ensures numbering */
+    margin: 0;                /* Resets default margin */
+    padding-left: 15px;       /* Provides space for numbers */
+    counter-reset: section;   /* Optional: if you are using counters */
+}
+
+ol li {
+    margin-bottom: 5px;       /* Space between list items */
+    counter-increment: section; /* Optional: if you are using counters */
+}
+
+ul {
+    list-style-type: disc; /* Ensures bullet points */
+    margin: 0;             /* Resets default margin */
+    padding-left: 15px;    /* Provides space for bullets */
+}
+ul li {
+    margin-bottom: 5px;    /* Space between list items */
+}
+
+a{
+    --uno: text-e-primary text-underline
 }
 </style>
