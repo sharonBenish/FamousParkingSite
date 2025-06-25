@@ -248,7 +248,6 @@ async function submitForm() {
                 <p class="text-[14px] md:text-[16px] font-bold mb4">Famous Parking SMS Terms of Service</p>
                 <div class="flex gap-2 items-start">
                     <input type="checkbox" id="sms" name="sms" true-value="yes" false-value="no" v-model="contactForm.sms" class="mt-1.5"/>
-                    <!-- <p class="text-[14px] md:text-[16px] mb4">By opting into SMS from a web form or other medium, you are agreeing to receive SMS messages from Famous Parking. This includes SMS messages for appointment scheduling, appointment reminders, post-visit instructions, lab notifications, and billing notifications. Message frequency varies. Message and data rates may apply. See privacy policy at <a class="text-e-primary underline cursor-pointer" href="https://famousparking.com/privacy" target="_blank">https://famousparking.com/privacy</a>. Message HELP for help. Reply STOP to any message to opt out.</p> -->
                     <div>
                         <p>By opting into SMS from Famous Parking, you agree to receive text messages related to appointment scheduling, deal follow-ups, property management discussions, and assistance with concerns.</p>
                         <ul>

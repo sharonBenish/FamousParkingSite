@@ -34,13 +34,13 @@ const footerLinks = [
   {
     title: 'Contact',
     links: [
-      { head: 'Sales@famousparking.com', to: 'mailto:' },
-      { head: 'Support@famousparking.com', to: 'mailto:' },
-      { head: 'Contact Sales team:', to:''},
-      { head: '+1 (331) 316-8148', to: 'tel:' },
-      { head: '+1 (217) 978-7672', to: 'tel:' },
-      { head: '+1 (331) 297-1178', to: 'tel:' },
-      { head: '+1 (331) 267-4238', to: 'tel:' }
+      { head: ['Sales@famousparking.com'], to: 'mailto:' },
+      // { head: 'Contact Sales team:', to:''},
+      { head: ['Company Phone','+1 (331) 248-5708'], to: 'tel:' },
+      { head: ['Anna (Associate Supervisor)','+1 (217) 684-0753'], to: 'tel:' },
+      { head: ['Coleen (Parking Solutions Associate)','+1 (331) 258-5209'], to: 'tel:' },
+      { head: ['John Ray (Parking Solutions Associate)','+1 (331) 684-0763'], to: 'tel:' },
+      { head: ['Shan (Parking Solutions Associate)','+1 (331) 321-7234'], to: 'tel:' }
     ],
   },
   {
@@ -79,11 +79,11 @@ const year = new Date().getFullYear()
           <h4 class="mb6 relative text-e-primary lg:text-4.25 fw500 before:(content-[''] absolute left-0 -bottom-2.5 h0.5 bg-e-primary w10 rounded-full)">
             {{ item.title }}
           </h4>
-          <NuxtLink v-if="item.title !== 'Contact'" v-for="list of item.links" :key="list.head" :to="list.to" class="text-3 lg:text-3.75 mb1.5 fw300 block hover:text-e-primary duration-400">
+          <NuxtLink v-if="item.title !== 'Contact'" v-for="list of item.links" :key="list.head as string" :to="list.to" class="text-3 lg:text-3.75 mb1.5 fw300 block hover:text-e-primary duration-400">
             {{ list.head }}
           </NuxtLink>
           <template v-else v-for="list of item.links" :key="list.to"  >
-            <a v-if="list.to !==''" :href="`${list.to}${list.head}`" class="text-3 lg:text-3.75 mb1.5 fw300 block hover:text-e-primary duration-400">{{list.head}}</a>
+            <a v-if="list.to !==''" :href="`${list.to}${list.head}`" class="text-3 lg:text-3.75 mb1.5 fw300 block hover:text-e-primary duration-400">{{ list.head.length > 1? `${list.head[0]}: ${list.head[1]}`: list.head[0] }}</a>
             <p v-else class="text-4 fw600">{{list.head}}</p>
           </template>
         </div>

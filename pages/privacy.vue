@@ -51,7 +51,7 @@
 
             <p>Personal Data is collected for the following purposes and using the following services:</p>
 
-            <h3>>A. Access to third party accounts</h3>
+            <h3>A. Access to third party accounts</h3>
 
             <p>This type of service allows FamousParking.com to access Data from your account on a third party service and perform actions with it.<br />
             These services are not activated automatically, but require explicit authorization by the User.</p>
@@ -343,7 +343,7 @@
             <p>License plate information collected using the LPR system will remain on file for a period of at least 180 days, it may be automatically purged from the LPR system upon the expiration of this period.</p>
             <p>LPR system audits shall be conducted on a regular basis.</p>
             
-            <p>If you have any questions on the LPR policy or would like to request data deletion, contact us at support@famousparking.com</p>
+            <p>If you have any questions on the LPR policy or would like to request data deletion, contact us at Sales@famousparking.com</p>
 
             <h3>O. Registration and authentication</h3>
 
