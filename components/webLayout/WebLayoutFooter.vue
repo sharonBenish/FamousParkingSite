@@ -83,7 +83,7 @@ const year = new Date().getFullYear()
             {{ list.head }}
           </NuxtLink>
           <template v-else v-for="list of item.links" :key="list.to"  >
-            <a v-if="list.to !==''" :href="`${list.to}${list.head}`" class="text-3 lg:text-3.75 mb1.5 fw300 block hover:text-e-primary duration-400">{{ list.head.length > 1? `${list.head[0]}: ${list.head[1]}`: list.head[0] }}</a>
+            <a v-if="list.to !==''" :href="list.head.length > 1? `${list.to}${list.head[1]}`: `${list.to}${list.head[0]}`" class="text-3 lg:text-3.75 mb1.5 fw300 block hover:text-e-primary duration-400">{{ list.head.length > 1? `${list.head[0]}: ${list.head[1]}`: list.head[0] }}</a>
             <p v-else class="text-4 fw600">{{list.head}}</p>
           </template>
         </div>
