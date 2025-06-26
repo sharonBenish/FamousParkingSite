@@ -37,7 +37,7 @@ const footerLinks = [
       { head: ['Sales@famousparking.com'], to: 'mailto:' },
       // { head: 'Contact Sales team:', to:''},
       { head: ['Company Phone','+1 (331) 248-5708'], to: 'tel:' },
-      { head: ['Anna (Associate Supervisor)','+1 (217) 684-0753'], to: 'tel:' },
+      { head: ['Anna (Associate Supervisor)','+1 (331) 684-0753'], to: 'tel:' },
       { head: ['Coleen (Parking Solutions Associate)','+1 (331) 258-5209'], to: 'tel:' },
       { head: ['John Ray (Parking Solutions Associate)','+1 (331) 684-0763'], to: 'tel:' },
       { head: ['Shan (Parking Solutions Associate)','+1 (331) 321-7234'], to: 'tel:' }
